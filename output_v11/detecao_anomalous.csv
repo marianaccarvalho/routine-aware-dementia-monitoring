@@ -1,0 +1,1479 @@
+t_start,hour,activity_true,activity_actual,is_anomaly,anomaly_type,hr_mean,spo2_mean,activity_predicted,activity_smoothed,detected_duration,detected_behavioral,detected_any,anomaly_score
+0,0.008194444444444445,Standing,Standing,False,none,81.71666666666667,97.7,Eating with hands,Eating with hands,False,True,True,1.0
+30,0.016527777777777777,Standing,Standing,False,none,84.76666666666667,97.65,Eating with hands,Eating with hands,False,True,True,1.0
+60,0.02486111111111111,Washing Teeth,Washing Teeth,False,none,96.75,98.03333333333333,Washing Teeth,Washing Teeth,False,True,True,1.0
+90,0.03319444444444444,Washing Teeth,Washing Teeth,False,none,107.23333333333333,98.63333333333334,Washing Teeth,Washing Teeth,False,True,True,1.0
+120,0.041527777777777775,Washing Teeth,Washing Teeth,False,none,111.58333333333333,98.38333333333334,Washing Teeth,Washing Teeth,False,True,True,1.0
+150,0.04986111111111111,Washing Teeth,Washing Teeth,True,wrong_activity,101.13333333333334,98.03333333333333,Washing Teeth,Washing Teeth,False,True,True,1.0
+180,0.058194444444444444,Showering,Light Movement,True,wrong_activity,87.25,98.0,Walking,Walking,False,True,True,1.0
+210,0.06652777777777778,Showering,Light Movement,True,wrong_activity,86.0,98.0,Walking,Walking,False,True,True,1.0
+240,0.07486111111111111,Showering,Light Movement,True,wrong_activity,85.18333333333334,97.06666666666666,Walking,Walking,False,True,True,1.0
+270,0.08319444444444445,Showering,Light Movement,True,wrong_activity,84.4,95.68333333333334,Walking,Walking,False,True,True,1.0
+300,0.09152777777777778,Showering,Light Movement,True,wrong_activity,85.23333333333333,95.75,Walking,Walking,False,True,True,1.0
+330,0.09986111111111111,Showering,Light Movement,True,wrong_activity,86.01666666666667,97.13333333333334,Walking,Walking,False,True,True,1.0
+360,0.10819444444444444,Showering,Light Movement,True,wrong_activity,86.0,98.0,Walking,Walking,False,True,True,1.0
+390,0.11652777777777777,Showering,Light Movement,True,wrong_activity,86.0,98.0,Walking,Walking,False,True,True,1.0
+420,0.12486111111111112,Showering,Light Movement,True,wrong_activity,84.98333333333333,96.76666666666667,Walking,Walking,False,True,True,1.0
+450,0.13319444444444445,Showering,Light Movement,True,wrong_activity,84.3,95.48333333333333,Walking,Walking,False,True,True,1.0
+480,0.14152777777777778,Showering,Light Movement,True,wrong_activity,85.43333333333334,96.05,Walking,Walking,False,True,True,1.0
+510,0.1498611111111111,Showering,Light Movement,True,wrong_activity,86.11666666666666,97.33333333333333,Walking,Walking,False,True,True,1.0
+540,0.15819444444444444,Walking,Walking,True,wrong_activity,86.0,98.0,Walking,Walking,False,True,True,1.0
+570,0.16652777777777777,Walking,Walking,False,none,86.0,98.0,Seating,Seating,False,True,True,1.0
+600,0.1748611111111111,Walking,Walking,False,none,85.11666666666666,96.96666666666667,Seating,Eating with cutlery,False,True,True,1.0
+630,0.18319444444444444,Walking,Walking,False,none,81.56666666666666,96.48333333333333,Eating with cutlery,Eating with cutlery,False,True,True,1.0
+660,0.19152777777777777,Seating,Seating,False,none,75.8,97.68333333333334,Eating with cutlery,Eating with cutlery,False,True,True,1.0
+690,0.1998611111111111,Seating,Seating,False,none,73.85,98.5,Laying,Eating with cutlery,False,True,True,1.0
+720,0.20819444444444443,Seating,Seating,False,none,77.38333333333334,98.38333333333334,Eating with cutlery,Eating with cutlery,False,True,True,1.0
+750,0.2165277777777778,Seating,Seating,False,none,81.95,98.21666666666667,Seating,Seating,False,True,True,1.0
+780,0.22486111111111112,Seating,Seating,False,none,86.65,98.18333333333334,Seating,Seating,False,True,True,1.0
+810,0.23319444444444445,Seating,Seating,False,none,85.88333333333334,98.41666666666667,Seating,Seating,False,True,True,1.0
+840,0.24152777777777779,Seating,Seating,False,none,79.88333333333334,98.7,Seating,Seating,False,True,True,1.0
+870,0.24986111111111112,Seating,Seating,False,none,76.83333333333333,98.56666666666666,Laying,Seating,False,True,True,1.0
+900,0.25819444444444445,Seating,Seating,False,none,77.41666666666667,98.4,Laying,Seating,False,False,False,0.0
+930,0.26652777777777775,Seating,Seating,False,none,78.61666666666666,98.15,Seating,Seating,False,False,False,0.0
+960,0.2748611111111111,Seating,Seating,False,none,78.83333333333333,98.03333333333333,Seating,Seating,False,False,False,0.0
+990,0.28319444444444447,Seating,Seating,False,none,75.38333333333334,98.03333333333333,Seating,Seating,False,False,False,0.0
+1020,0.2915277777777778,Seating,Seating,False,none,73.55,98.2,Seating,Seating,False,False,False,0.0
+1050,0.29986111111111113,Seating,Seating,False,none,74.9,97.88333333333334,Seating,Seating,False,False,False,0.0
+1080,0.30819444444444444,Seating,Seating,False,none,74.35,97.95,Seating,Seating,False,False,False,0.0
+1110,0.3165277777777778,Seating,Seating,False,none,75.65,98.55,Laying,Laying,False,True,True,1.0
+1140,0.3248611111111111,Seating,Seating,False,none,75.85,98.61666666666666,Laying,Laying,False,True,True,1.0
+1170,0.33319444444444446,Seating,Seating,False,none,74.03333333333333,98.58333333333333,Laying,Laying,False,True,True,1.0
+1200,0.34152777777777776,Seating,Seating,False,none,73.18333333333334,98.65,Laying,Laying,False,True,True,1.0
+1230,0.3498611111111111,Seating,Seating,False,none,73.2,98.5,Laying,Laying,False,True,True,1.0
+1260,0.3581944444444444,Seating,Seating,False,none,77.38333333333334,98.3,Laying,Laying,False,True,True,1.0
+1290,0.3665277777777778,Seating,Seating,False,none,81.0,98.31666666666666,Seating,Seating,False,False,False,0.0
+1320,0.3748611111111111,Seating,Seating,False,none,79.05,98.1,Seating,Seating,False,False,False,0.0
+1350,0.38319444444444445,Seating,Seating,False,none,78.7,98.03333333333333,Seating,Seating,False,False,False,0.0
+1380,0.39152777777777775,Eating with hands,Eating with hands,False,none,84.38333333333334,98.03333333333333,Seating,Seating,False,False,False,0.0
+1410,0.3998611111111111,Eating with hands,Eating with hands,False,none,87.96666666666667,97.86666666666666,Seating,Seating,False,False,False,0.0
+1440,0.40819444444444447,Eating with hands,Eating with hands,False,none,87.86666666666666,97.46666666666667,Seating,Seating,False,False,False,0.0
+1470,0.4165277777777778,Eating with hands,Eating with hands,False,none,87.5,97.41666666666667,Eating with cutlery,Eating with cutlery,False,True,True,1.0
+1500,0.42486111111111113,Eating with hands,Eating with hands,False,none,87.41666666666667,97.36666666666666,Eating with cutlery,Eating with cutlery,False,True,True,1.0
+1530,0.43319444444444444,Eating with hands,Eating with hands,False,none,90.0,97.25,Eating with cutlery,Eating with cutlery,False,True,True,1.0
+1560,0.4415277777777778,Eating with hands,Eating with hands,False,none,91.96666666666667,97.4,Eating with cutlery,Eating with cutlery,False,True,True,0.6973962783813477
+1590,0.4498611111111111,Eating with hands,Eating with hands,False,none,90.26666666666667,97.48333333333333,Eating with cutlery,Eating with cutlery,False,False,False,0.0
+1620,0.45819444444444446,Eating with hands,Eating with hands,False,none,89.08333333333333,97.2,Eating with cutlery,Eating with cutlery,False,False,False,0.0
+1650,0.46652777777777776,Eating with hands,Eating with hands,False,none,87.41666666666667,96.63333333333334,Eating with cutlery,Eating with cutlery,False,True,True,1.0
+1680,0.4748611111111111,Eating with hands,Eating with hands,False,none,90.36666666666666,96.78333333333333,Eating with cutlery,Eating with cutlery,False,True,True,1.0
+1710,0.4831944444444444,Eating with hands,Eating with hands,False,none,94.58333333333333,96.96666666666667,Washing Teeth,Eating with cutlery,False,True,True,1.0
+1740,0.4915277777777778,Eating with hands,Eating with hands,False,none,91.13333333333334,97.48333333333333,Seating,Seating,False,True,True,1.0
+1770,0.4998611111111111,Eating with hands,Eating with hands,False,none,88.03333333333333,97.73333333333333,Seating,Seating,False,True,True,1.0
+1800,0.5081944444444444,Eating with hands,Eating with hands,False,none,89.91666666666667,96.98333333333333,Seating,Seating,False,True,True,1.0
+1830,0.5165277777777778,Eating with hands,Eating with hands,False,none,93.56666666666666,96.85,Washing Teeth,Washing Teeth,False,True,True,1.0
+1860,0.5248611111111111,Eating with hands,Eating with hands,False,none,96.05,97.08333333333333,Washing Teeth,Washing Teeth,False,True,True,0.8636216521263123
+1890,0.5331944444444444,Eating with hands,Eating with hands,False,none,93.03333333333333,97.13333333333334,Washing Teeth,Washing Teeth,False,True,True,0.8932244777679443
+1920,0.5415277777777778,Eating with hands,Eating with hands,False,none,87.61666666666666,97.33333333333333,Seating,Seating,False,True,True,1.0
+1950,0.5498611111111111,Eating with hands,Eating with hands,False,none,87.95,97.4,Seating,Seating,False,True,True,1.0
+1980,0.5581944444444444,Walking,Walking,False,none,92.2,96.16666666666667,Walking,Walking,False,True,True,1.0
+2010,0.5665277777777777,Walking,Walking,False,none,93.95,94.66666666666667,Walking,Walking,False,True,True,1.0
+2040,0.5748611111111112,Walking,Walking,True,duration,89.15,95.53333333333333,Walking,Walking,False,True,True,1.0
+2070,0.5831944444444445,Seating,Seating,True,duration,85.0,97.41666666666667,Seating,Seating,True,False,True,0.8055555555555556
+2100,0.5915277777777778,Seating,Seating,True,duration,85.36666666666666,98.15,Seating,Seating,True,False,True,0.8055555555555556
+2130,0.5998611111111111,Seating,Seating,True,duration,86.5,98.28333333333333,Seating,Seating,True,False,True,0.8055555555555556
+2160,0.6081944444444445,Seating,Seating,True,duration,83.05,98.66666666666667,Laying,Seating,True,False,True,0.8055555555555556
+2190,0.6165277777777778,Seating,Seating,True,duration,77.35,98.63333333333334,Laying,Laying,True,False,True,0.8055555555555556
+2220,0.6248611111111111,Seating,Seating,True,duration,82.05,96.56666666666666,Seating,Laying,True,False,True,0.8055555555555556
+2250,0.6331944444444444,Walking,Walking,True,duration,93.88333333333334,92.91666666666667,Walking,Walking,False,True,True,1.0
+2280,0.6415277777777778,Walking,Walking,False,none,99.0,91.0,Walking,Walking,False,True,True,1.0
+2310,0.6498611111111111,Walking,Walking,False,none,99.0,91.0,Walking,Walking,False,True,True,1.0
+2340,0.6581944444444444,Walking,Walking,False,none,99.0,91.0,Walking,Walking,False,True,True,1.0
+2370,0.6665277777777778,Walking,Walking,True,wrong_activity,97.56666666666666,91.4,Walking,Walking,False,True,True,1.0
+2400,0.6748611111111111,Eating with cutlery,Standing,True,wrong_activity,89.76666666666667,94.56666666666666,Walking,Walking,False,True,True,1.0
+2430,0.6831944444444444,Eating with cutlery,Standing,True,wrong_activity,81.55,97.56666666666666,Eating with hands,Eating with hands,False,True,True,1.0
+2460,0.6915277777777777,Eating with cutlery,Standing,True,wrong_activity,82.28333333333333,97.65,Eating with hands,Eating with hands,False,True,True,1.0
+2490,0.6998611111111112,Eating with cutlery,Standing,True,wrong_activity,82.28333333333333,97.56666666666666,Eating with hands,Eating with hands,False,True,True,1.0
+2520,0.7081944444444445,Eating with cutlery,Standing,True,wrong_activity,81.21666666666667,97.81666666666666,Eating with hands,Eating with hands,False,True,True,1.0
+2550,0.7165277777777778,Eating with cutlery,Standing,True,wrong_activity,84.76666666666667,97.71666666666667,Eating with hands,Eating with hands,False,True,True,1.0
+2580,0.7248611111111111,Eating with cutlery,Standing,True,wrong_activity,86.85,97.13333333333334,Eating with hands,Eating with hands,False,True,True,1.0
+2610,0.7331944444444445,Eating with cutlery,Standing,True,wrong_activity,84.63333333333334,97.01666666666667,Eating with hands,Eating with hands,False,True,True,1.0
+2640,0.7415277777777778,Eating with cutlery,Standing,True,wrong_activity,82.18333333333334,97.13333333333334,Eating with hands,Eating with hands,False,True,True,1.0
+2670,0.7498611111111111,Eating with cutlery,Standing,True,wrong_activity,83.68333333333334,97.15,Eating with hands,Eating with hands,False,True,True,1.0
+2700,0.7581944444444444,Eating with cutlery,Standing,True,wrong_activity,83.25,97.36666666666666,Eating with hands,Eating with hands,False,True,True,1.0
+2730,0.7665277777777778,Eating with cutlery,Standing,True,wrong_activity,80.73333333333333,97.51666666666667,Eating with hands,Eating with hands,False,True,True,1.0
+2760,0.7748611111111111,Eating with cutlery,Standing,True,wrong_activity,80.33333333333333,97.33333333333333,Eating with hands,Eating with hands,False,True,True,1.0
+2790,0.7831944444444444,Eating with cutlery,Standing,True,wrong_activity,81.66666666666667,97.43333333333334,Eating with hands,Eating with hands,False,True,True,1.0
+2820,0.7915277777777778,Eating with cutlery,Standing,True,wrong_activity,83.31666666666666,97.61666666666666,Eating with hands,Eating with hands,False,True,True,1.0
+2850,0.7998611111111111,Eating with cutlery,Standing,True,wrong_activity,83.13333333333334,97.4,Eating with hands,Eating with hands,False,True,True,1.0
+2880,0.8081944444444444,Eating with cutlery,Standing,True,wrong_activity,81.51666666666667,97.18333333333334,Eating with hands,Eating with hands,False,True,True,1.0
+2910,0.8165277777777777,Eating with cutlery,Standing,True,wrong_activity,81.63333333333334,97.15,Eating with hands,Eating with hands,False,True,True,1.0
+2940,0.8248611111111112,Eating with cutlery,Standing,True,wrong_activity,81.28333333333333,97.51666666666667,Eating with hands,Eating with hands,False,True,True,1.0
+2970,0.8331944444444445,Eating with cutlery,Standing,True,wrong_activity,82.28333333333333,97.7,Eating with hands,Eating with hands,False,True,True,1.0
+3000,0.8415277777777778,Eating with cutlery,Standing,True,wrong_activity,82.5,97.56666666666666,Eating with hands,Eating with hands,False,True,True,1.0
+3030,0.8498611111111111,Eating with cutlery,Standing,True,wrong_activity,81.01666666666667,97.76666666666667,Eating with hands,Eating with hands,False,True,True,1.0
+3060,0.8581944444444445,Eating with cutlery,Standing,True,wrong_activity,84.53333333333333,97.8,Eating with hands,Eating with hands,False,True,True,1.0
+3090,0.8665277777777778,Walking,Walking,True,wrong_activity,86.58333333333333,97.8,Walking,Walking,False,False,False,0.0
+3120,0.8748611111111111,Walking,Walking,False,none,86.0,98.0,Walking,Walking,False,True,True,0.33938807249069214
+3150,0.8831944444444444,Walking,Walking,False,none,86.0,98.0,Walking,Walking,False,False,False,0.0
+3180,0.8915277777777778,Walking,Walking,False,none,84.95,96.71666666666667,Walking,Walking,False,True,True,0.865528404712677
+3210,0.8998611111111111,Walking,Walking,False,none,84.28333333333333,95.45,Walking,Walking,False,False,False,0.0
+3240,0.9081944444444444,Walking,Walking,False,none,85.46666666666667,96.1,Walking,Walking,False,False,False,0.0
+3270,0.9165277777777778,Walking,Walking,False,none,86.13333333333334,97.36666666666666,Walking,Walking,False,False,False,0.0
+3300,0.9248611111111111,Walking,Walking,False,none,86.0,98.0,Walking,Walking,False,False,False,0.0
+3330,0.9331944444444444,Walking,Walking,False,none,77.8,98.2,Walking,Walking,False,False,False,0.0
+3360,0.9415277777777777,Seating,Seating,False,none,61.666666666666664,98.18333333333334,Seating,Seating,False,True,True,1.0
+3390,0.9498611111111112,Seating,Seating,False,none,51.766666666666666,98.18333333333334,Seating,Seating,False,True,True,1.0
+3420,0.9581944444444445,Seating,Seating,False,none,48.4,98.36666666666666,Seating,Seating,False,True,True,1.0
+3450,0.9665277777777778,Seating,Seating,False,none,48.06666666666667,98.3,Seating,Seating,False,False,False,0.0
+3480,0.9748611111111111,Seating,Seating,False,none,50.266666666666666,98.33333333333333,Seating,Seating,False,False,False,0.0
+3510,0.9831944444444445,Seating,Seating,False,none,50.13333333333333,98.45,Seating,Seating,False,False,False,0.0
+3540,0.9915277777777778,Seating,Seating,False,none,48.5,98.61666666666666,Seating,Seating,False,False,False,0.0
+3570,0.9998611111111111,Seating,Seating,False,none,49.35,98.58333333333333,Seating,Seating,False,False,False,0.0
+3600,1.0081944444444444,Seating,Seating,False,none,50.56666666666667,98.53333333333333,Seating,Seating,False,False,False,0.0
+3630,1.0165277777777777,Seating,Seating,False,none,53.483333333333334,98.38333333333334,Seating,Seating,False,False,False,0.0
+3660,1.024861111111111,Seating,Seating,False,none,52.56666666666667,97.91666666666667,Seating,Seating,False,False,False,0.0
+3690,1.0331944444444445,Seating,Seating,False,none,48.166666666666664,98.28333333333333,Seating,Seating,False,False,False,0.0
+3720,1.0415277777777778,Seating,Seating,False,none,49.7,98.65,Seating,Seating,False,False,False,0.0
+3750,1.0498611111111111,Seating,Seating,False,none,51.166666666666664,98.55,Seating,Seating,False,False,False,0.0
+3780,1.0581944444444444,Seating,Seating,False,none,50.5,98.53333333333333,Seating,Seating,False,True,True,1.0
+3810,1.0665277777777777,Seating,Seating,False,none,50.0,98.51666666666667,Seating,Seating,False,True,True,1.0
+3840,1.074861111111111,Seating,Seating,False,none,49.916666666666664,98.53333333333333,Seating,Seating,False,True,True,1.0
+3870,1.0831944444444443,Seating,Seating,False,none,51.86666666666667,98.26666666666667,Seating,Seating,False,True,True,1.0
+3900,1.0915277777777779,Seating,Seating,False,none,51.25,98.85,Seating,Seating,False,True,True,1.0
+3930,1.0998611111111112,Seating,Seating,False,none,51.983333333333334,99.15,Seating,Seating,False,True,True,1.0
+3960,1.1081944444444445,Seating,Seating,False,none,54.21666666666667,98.51666666666667,Seating,Seating,False,True,True,1.0
+3990,1.1165277777777778,Seating,Seating,False,none,51.65,98.46666666666667,Seating,Seating,False,True,True,1.0
+4020,1.124861111111111,Seating,Seating,False,none,50.38333333333333,98.43333333333334,Seating,Seating,False,True,True,1.0
+4050,1.1331944444444444,Seating,Seating,False,none,53.25,98.43333333333334,Seating,Seating,False,True,True,1.0
+4080,1.1415277777777777,Seating,Seating,False,none,55.266666666666666,98.51666666666667,Seating,Seating,False,True,True,1.0
+4110,1.149861111111111,Seating,Seating,False,none,55.56666666666667,98.46666666666667,Seating,Seating,False,False,False,0.0
+4140,1.1581944444444445,Seating,Seating,False,none,51.8,98.25,Seating,Seating,False,False,False,0.0
+4170,1.1665277777777778,Seating,Seating,False,none,47.1,98.2,Seating,Seating,False,False,False,0.0
+4200,1.1748611111111111,Seating,Seating,False,none,50.3,98.33333333333333,Seating,Seating,False,False,False,0.0
+4230,1.1831944444444444,Seating,Seating,False,none,51.666666666666664,98.28333333333333,Seating,Seating,False,False,False,0.0
+4260,1.1915277777777777,Seating,Seating,False,none,47.95,98.28333333333333,Seating,Seating,False,False,False,0.0
+4290,1.199861111111111,Seating,Seating,False,none,48.88333333333333,98.1,Seating,Seating,False,False,False,0.0
+4320,1.2081944444444443,Seating,Seating,False,none,50.8,98.36666666666666,Seating,Seating,False,False,False,0.0
+4350,1.2165277777777779,Seating,Seating,False,none,49.333333333333336,98.66666666666667,Seating,Seating,False,False,False,0.0
+4380,1.2248611111111112,Seating,Seating,False,none,48.233333333333334,98.51666666666667,Seating,Seating,False,False,False,0.0
+4410,1.2331944444444445,Seating,Seating,False,none,49.916666666666664,98.55,Seating,Seating,False,False,False,0.0
+4440,1.2415277777777778,Seating,Seating,False,none,52.666666666666664,98.53333333333333,Seating,Seating,False,False,False,0.0
+4470,1.249861111111111,Seating,Seating,False,none,52.9,98.3,Seating,Seating,False,False,False,0.0
+4500,1.2581944444444444,Seating,Seating,False,none,50.666666666666664,98.0,Seating,Seating,False,False,False,0.0
+4530,1.2665277777777777,Seating,Seating,False,none,48.11666666666667,98.33333333333333,Eating with hands,Eating with hands,False,False,False,0.0
+4560,1.274861111111111,Seating,Seating,False,none,49.65,98.71666666666667,Eating with hands,Eating with hands,False,False,False,0.0
+4590,1.2831944444444445,Seating,Seating,False,none,51.81666666666667,98.55,Eating with hands,Eating with hands,False,False,False,0.0
+4620,1.2915277777777778,Seating,Seating,False,none,50.483333333333334,98.51666666666667,Seating,Seating,False,True,True,1.0
+4650,1.2998611111111111,Seating,Seating,False,none,49.7,98.5,Seating,Seating,False,True,True,1.0
+4680,1.3081944444444444,Seating,Seating,False,none,51.483333333333334,98.41666666666667,Seating,Seating,False,True,True,1.0
+4710,1.3165277777777777,Seating,Seating,False,none,51.75,98.33333333333333,Seating,Seating,False,True,True,1.0
+4740,1.324861111111111,Seating,Seating,False,none,49.95,98.93333333333334,Seating,Seating,False,True,True,1.0
+4770,1.3331944444444443,Seating,Seating,False,none,52.7,99.05,Seating,Seating,False,True,True,1.0
+4800,1.3415277777777779,Seating,Seating,False,none,53.96666666666667,98.56666666666666,Seating,Seating,False,True,True,1.0
+4830,1.3498611111111112,Seating,Seating,False,none,51.18333333333333,98.55,Seating,Seating,False,True,True,1.0
+4860,1.3581944444444445,Seating,Seating,False,none,51.833333333333336,98.28333333333333,Seating,Seating,False,True,True,1.0
+4890,1.3665277777777778,Seating,Seating,False,none,54.46666666666667,98.33333333333333,Seating,Seating,False,True,True,1.0
+4920,1.374861111111111,Seating,Seating,False,none,54.4,98.66666666666667,Seating,Seating,False,True,True,1.0
+4950,1.3831944444444444,Seating,Seating,False,none,54.016666666666666,98.48333333333333,Seating,Seating,False,True,True,1.0
+4980,1.3915277777777777,Seating,Seating,False,none,50.916666666666664,98.1,Seating,Seating,False,True,True,1.0
+5010,1.399861111111111,Seating,Seating,False,none,47.71666666666667,98.13333333333334,Eating with hands,Eating with hands,False,False,False,0.0
+5040,1.4081944444444445,Seating,Seating,False,none,50.483333333333334,98.35,Eating with hands,Eating with hands,False,False,False,0.0
+5070,1.4165277777777778,Seating,Seating,False,none,50.833333333333336,98.41666666666667,Eating with hands,Eating with hands,False,False,False,0.0
+5100,1.4248611111111111,Seating,Seating,False,none,47.81666666666667,98.41666666666667,Eating with hands,Eating with hands,False,False,False,0.0
+5130,1.4331944444444444,Seating,Seating,False,none,49.483333333333334,98.13333333333334,Eating with hands,Eating with hands,False,False,False,0.0
+5160,1.4415277777777777,Seating,Seating,False,none,50.916666666666664,98.31666666666666,Eating with hands,Eating with hands,False,False,False,0.0
+5190,1.449861111111111,Seating,Seating,False,none,48.9,98.63333333333334,Walking,Eating with hands,False,False,False,0.0
+5220,1.4581944444444443,Seating,Seating,False,none,48.266666666666666,98.43333333333334,Walking,Eating with hands,False,False,False,0.0
+5250,1.4665277777777779,Seating,Seating,False,none,49.86666666666667,98.63333333333334,Eating with hands,Eating with hands,False,False,False,0.0
+5280,1.4748611111111112,Seating,Seating,False,none,53.766666666666666,98.63333333333334,Eating with hands,Eating with hands,False,False,False,0.0
+5310,1.4831944444444445,Seating,Seating,False,none,52.9,97.96666666666667,Eating with hands,Eating with hands,False,False,False,0.0
+5340,1.4915277777777778,Seating,Seating,False,none,49.31666666666667,98.03333333333333,Seating,Seating,False,False,False,0.0
+5370,1.499861111111111,Seating,Seating,False,none,49.233333333333334,98.56666666666666,Seating,Seating,False,False,False,0.0
+5400,1.5081944444444444,Seating,Seating,False,none,50.3,98.71666666666667,Seating,Seating,False,False,False,0.0
+5430,1.5165277777777777,Seating,Seating,False,none,51.25,98.65,Seating,Seating,False,False,False,0.0
+5460,1.524861111111111,Seating,Seating,False,none,50.18333333333333,98.51666666666667,Seating,Seating,False,False,False,0.0
+5490,1.5331944444444445,Seating,Seating,False,none,49.45,98.45,Seating,Seating,False,False,False,0.0
+5520,1.5415277777777778,Seating,Seating,False,none,52.06666666666667,98.3,Seating,Seating,False,False,False,0.0
+5550,1.5498611111111111,Seating,Seating,False,none,51.6,98.53333333333333,Seating,Seating,False,False,False,0.0
+5580,1.5581944444444444,Seating,Seating,False,none,50.56666666666667,99.01666666666667,Seating,Seating,False,False,False,0.0
+5610,1.5665277777777777,Seating,Seating,False,none,53.63333333333333,98.78333333333333,Seating,Seating,False,False,False,0.0
+5640,1.574861111111111,Seating,Seating,False,none,52.9,98.6,Eating with hands,Seating,False,False,False,0.0
+5670,1.5831944444444443,Seating,Seating,False,none,50.233333333333334,98.56666666666666,Seating,Seating,False,False,False,0.0
+5700,1.5915277777777779,Seating,Seating,False,none,52.416666666666664,98.28333333333333,Seating,Seating,False,False,False,0.0
+5730,1.5998611111111112,Seating,Seating,False,none,55.4,98.31666666666666,Seating,Seating,False,False,False,0.0
+5760,1.6081944444444445,Seating,Seating,False,none,54.666666666666664,98.61666666666666,Seating,Seating,False,False,False,0.0
+5790,1.6165277777777778,Seating,Seating,False,none,52.8,98.45,Seating,Seating,False,False,False,0.0
+5820,1.624861111111111,Seating,Seating,False,none,49.333333333333336,98.15,Seating,Seating,False,False,False,0.0
+5850,1.6331944444444444,Seating,Seating,False,none,49.516666666666666,98.13333333333334,Seating,Seating,False,False,False,0.0
+5880,1.6415277777777777,Seating,Seating,False,none,51.55,98.23333333333333,Seating,Seating,False,False,False,0.0
+5910,1.649861111111111,Seating,Seating,False,none,48.88333333333333,98.41666666666667,Seating,Seating,False,False,False,0.0
+5940,1.6581944444444445,Seating,Seating,False,none,47.833333333333336,98.35,Seating,Seating,False,False,False,0.0
+5970,1.6665277777777778,Seating,Seating,False,none,50.083333333333336,98.28333333333333,Seating,Seating,False,False,False,0.0
+6000,1.6748611111111111,Seating,Seating,False,none,50.43333333333333,98.35,Seating,Seating,False,False,False,0.0
+6030,1.6831944444444444,Seating,Seating,False,none,48.6,98.63333333333334,Seating,Seating,False,False,False,0.0
+6060,1.6915277777777777,Seating,Seating,False,none,49.083333333333336,98.58333333333333,Seating,Seating,False,False,False,0.0
+6090,1.699861111111111,Seating,Seating,False,none,50.016666666666666,98.56666666666666,Seating,Seating,False,False,False,0.0
+6120,1.7081944444444443,Seating,Seating,False,none,53.6,98.46666666666667,Seating,Seating,False,False,False,0.0
+6150,1.7165277777777779,Seating,Seating,False,none,52.96666666666667,97.86666666666666,Seating,Seating,False,False,False,0.0
+6180,1.7248611111111112,Seating,Seating,False,none,48.36666666666667,98.2,Seating,Seating,False,False,False,0.0
+6210,1.7331944444444445,Seating,Seating,False,none,49.8,98.66666666666667,Seating,Seating,False,False,False,0.0
+6240,1.7415277777777778,Seating,Seating,False,none,50.916666666666664,98.56666666666666,Seating,Seating,False,False,False,0.0
+6270,1.749861111111111,Seating,Seating,False,none,50.55,98.56666666666666,Laying,Seating,False,False,False,0.0
+6300,1.7581944444444444,Seating,Seating,False,none,50.1,98.55,Laying,Laying,False,True,True,1.0
+6330,1.7665277777777777,Seating,Seating,False,none,49.666666666666664,98.53333333333333,Seating,Laying,False,True,True,1.0
+6360,1.774861111111111,Seating,Seating,False,none,51.916666666666664,98.26666666666667,Laying,Seating,False,False,False,0.0
+6390,1.7831944444444445,Seating,Seating,False,none,51.45,98.75,Seating,Seating,False,False,False,0.0
+6420,1.7915277777777778,Seating,Seating,False,none,51.733333333333334,99.15,Seating,Seating,False,False,False,0.0
+6450,1.7998611111111111,Seating,Seating,False,none,54.21666666666667,98.56666666666666,Seating,Seating,False,False,False,0.0
+6480,1.8081944444444444,Seating,Seating,False,none,51.85,98.46666666666667,Seating,Seating,False,False,False,0.0
+6510,1.8165277777777777,Seating,Seating,False,none,49.88333333333333,98.48333333333333,Seating,Seating,False,False,False,0.0
+6540,1.824861111111111,Seating,Seating,False,none,52.85,98.43333333333334,Seating,Seating,False,False,False,0.0
+6570,1.8331944444444443,Seating,Seating,False,none,55.61666666666667,98.46666666666667,Seating,Seating,False,False,False,0.0
+6600,1.8415277777777779,Seating,Seating,False,none,55.93333333333333,98.46666666666667,Seating,Seating,False,False,False,0.0
+6630,1.8498611111111112,Seating,Seating,False,none,52.05,98.3,Laying,Seating,False,False,False,0.0
+6660,1.8581944444444445,Seating,Seating,False,none,47.083333333333336,98.2,Seating,Seating,False,False,False,0.0
+6690,1.8665277777777778,Seating,Seating,False,none,50.3,98.28333333333333,Seating,Seating,False,False,False,0.0
+6720,1.874861111111111,Seating,Seating,False,none,51.81666666666667,98.23333333333333,Seating,Seating,False,False,False,0.0
+6750,1.8831944444444444,Seating,Seating,False,none,48.0,98.28333333333333,Seating,Seating,False,False,False,0.0
+6780,1.8915277777777777,Seating,Seating,False,none,48.63333333333333,98.15,Seating,Seating,False,False,False,0.0
+6810,1.899861111111111,Seating,Seating,False,none,50.63333333333333,98.38333333333334,Seating,Seating,False,False,False,0.0
+6840,1.9081944444444445,Seating,Seating,False,none,49.55,98.65,Seating,Seating,False,False,False,0.0
+6870,1.9165277777777778,Seating,Seating,False,none,48.3,98.55,Seating,Seating,False,False,False,0.0
+6900,1.9248611111111111,Seating,Seating,False,none,49.86666666666667,98.51666666666667,Seating,Seating,False,False,False,0.0
+6930,1.9331944444444444,Seating,Seating,False,none,52.016666666666666,98.53333333333333,Seating,Seating,False,False,False,0.0
+6960,1.9415277777777777,Seating,Seating,False,none,52.983333333333334,98.35,Seating,Seating,False,False,False,0.0
+6990,1.949861111111111,Seating,Seating,False,none,51.333333333333336,97.98333333333333,Seating,Seating,False,False,False,0.0
+7020,1.9581944444444443,Seating,Seating,False,none,48.06666666666667,98.38333333333334,Seating,Seating,False,False,False,0.0
+7050,1.9665277777777779,Seating,Seating,False,none,49.583333333333336,98.68333333333334,Seating,Seating,False,False,False,0.0
+7080,1.9748611111111112,Seating,Seating,False,none,51.666666666666664,98.45,Seating,Seating,False,False,False,0.0
+7110,1.9831944444444445,Seating,Seating,False,none,50.483333333333334,98.51666666666667,Seating,Seating,False,False,False,0.0
+7140,1.9915277777777778,Seating,Seating,False,none,49.8,98.55,Seating,Seating,False,False,False,0.0
+7170,1.999861111111111,Seating,Seating,False,none,50.983333333333334,98.46666666666667,Seating,Seating,False,False,False,0.0
+7200,2.0081944444444444,Seating,Seating,False,none,51.78333333333333,98.25,Seating,Seating,False,False,False,0.0
+7230,2.0165277777777777,Seating,Seating,False,none,50.3,98.93333333333334,Seating,Seating,False,False,False,0.0
+7260,2.024861111111111,Seating,Seating,False,none,52.46666666666667,99.13333333333334,Seating,Seating,False,False,False,0.0
+7290,2.0331944444444443,Seating,Seating,False,none,54.11666666666667,98.51666666666667,Seating,Seating,False,False,False,0.0
+7320,2.0415277777777776,Seating,Seating,False,none,51.333333333333336,98.5,Seating,Seating,False,False,False,0.0
+7350,2.049861111111111,Seating,Seating,False,none,51.38333333333333,98.33333333333333,Laying,Seating,False,False,False,0.0
+7380,2.0581944444444447,Seating,Seating,False,none,54.06666666666667,98.38333333333334,Seating,Seating,False,False,False,0.0
+7410,2.066527777777778,Seating,Seating,False,none,54.6,98.61666666666666,Seating,Seating,False,False,False,0.0
+7440,2.0748611111111113,Seating,Seating,False,none,54.583333333333336,98.48333333333333,Laying,Seating,False,False,False,0.0
+7470,2.0831944444444446,Seating,Seating,False,none,59.45,97.93333333333334,Seating,Seating,False,False,False,0.0
+7500,2.091527777777778,Walking,Walking,False,none,79.9,97.05,Walking,Walking,False,False,False,0.0
+7530,2.099861111111111,Walking,Walking,False,none,94.16666666666667,95.13333333333334,Walking,Walking,False,False,False,0.0
+7560,2.1081944444444445,Walking,Walking,False,none,93.48333333333333,94.36666666666666,Walking,Walking,False,False,False,0.0
+7590,2.116527777777778,Walking,Walking,False,none,94.05,94.66666666666667,Walking,Walking,False,False,False,0.0
+7620,2.124861111111111,Walking,Walking,False,none,91.05,93.66666666666667,Walking,Walking,False,False,False,0.0
+7650,2.1331944444444444,Walking,Walking,False,none,78.1,94.66666666666667,Walking,Walking,False,False,False,0.0
+7680,2.1415277777777777,Walking,Walking,False,none,81.21666666666667,96.76666666666667,Walking,Walking,False,False,False,0.0
+7710,2.149861111111111,Walking,Walking,False,none,93.93333333333334,95.36666666666666,Walking,Walking,False,False,False,0.0
+7740,2.1581944444444443,Walking,Walking,False,none,93.73333333333333,94.23333333333333,Walking,Walking,False,False,False,0.0
+7770,2.1665277777777776,Walking,Walking,False,none,96.08333333333333,94.63333333333334,Walking,Walking,False,False,False,0.0
+7800,2.174861111111111,Light Movement,Light Movement,False,none,98.86666666666666,93.13333333333334,Walking,Walking,False,False,False,0.0
+7830,2.1831944444444447,Light Movement,Light Movement,False,none,99.7,91.46666666666667,Walking,Walking,False,False,False,0.0
+7860,2.191527777777778,Light Movement,Light Movement,False,none,99.0,91.0,Walking,Walking,False,False,False,0.0
+7890,2.1998611111111113,Light Movement,Light Movement,False,none,99.0,91.0,Walking,Walking,False,False,False,0.0
+7920,2.2081944444444446,Light Movement,Light Movement,False,none,99.0,91.0,Walking,Walking,False,False,False,0.0
+7950,2.216527777777778,Light Movement,Light Movement,False,none,99.0,91.0,Walking,Walking,False,False,False,0.0
+7980,2.224861111111111,Light Movement,Light Movement,False,none,99.0,91.0,Walking,Walking,False,False,False,0.0
+8010,2.2331944444444445,Light Movement,Light Movement,False,none,99.0,91.0,Walking,Walking,False,False,False,0.0
+8040,2.241527777777778,Light Movement,Light Movement,False,none,97.8,90.2,Walking,Walking,False,False,False,0.0
+8070,2.249861111111111,Light Movement,Light Movement,False,none,96.3,89.2,Walking,Walking,False,False,False,0.0
+8100,2.2581944444444444,Light Movement,Light Movement,False,none,96.0,89.0,Walking,Walking,False,False,False,0.0
+8130,2.2665277777777777,Light Movement,Light Movement,False,none,87.48333333333333,93.3,Walking,Walking,False,False,False,0.0
+8160,2.274861111111111,Seating,Seating,False,none,77.73333333333333,98.06666666666666,Seating,Seating,False,True,True,1.0
+8190,2.2831944444444443,Seating,Seating,False,none,77.41666666666667,98.4,Laying,Seating,False,True,True,1.0
+8220,2.2915277777777776,Seating,Seating,False,none,78.61666666666666,98.15,Seating,Seating,False,True,True,1.0
+8250,2.299861111111111,Seating,Seating,False,none,78.83333333333333,98.03333333333333,Seating,Seating,False,True,True,1.0
+8280,2.3081944444444447,Seating,Seating,False,none,75.38333333333334,98.03333333333333,Seating,Seating,False,True,True,1.0
+8310,2.316527777777778,Seating,Seating,False,none,73.55,98.2,Seating,Seating,False,False,False,0.0
+8340,2.3248611111111113,Seating,Seating,False,none,74.9,97.88333333333334,Seating,Seating,False,False,False,0.0
+8370,2.3331944444444446,Seating,Seating,False,none,74.35,97.95,Seating,Seating,False,False,False,0.0
+8400,2.341527777777778,Seating,Seating,False,none,75.65,98.55,Laying,Laying,False,True,True,1.0
+8430,2.349861111111111,Seating,Seating,False,none,75.85,98.61666666666666,Laying,Laying,False,True,True,1.0
+8460,2.3581944444444445,Seating,Seating,False,none,74.03333333333333,98.58333333333333,Laying,Laying,False,True,True,1.0
+8490,2.366527777777778,Seating,Seating,False,none,73.18333333333334,98.65,Laying,Laying,False,True,True,1.0
+8520,2.374861111111111,Seating,Seating,False,none,73.2,98.5,Laying,Laying,False,True,True,1.0
+8550,2.3831944444444444,Seating,Seating,False,none,77.38333333333334,98.3,Laying,Laying,False,True,True,1.0
+8580,2.3915277777777777,Seating,Seating,False,none,81.0,98.31666666666666,Seating,Seating,False,False,False,0.0
+8610,2.399861111111111,Seating,Seating,False,none,79.05,98.1,Seating,Seating,False,False,False,0.0
+8640,2.4081944444444443,Seating,Seating,False,none,77.31666666666666,98.03333333333333,Seating,Seating,False,False,False,0.0
+8670,2.4165277777777776,Seating,Seating,False,none,77.66666666666667,98.06666666666666,Seating,Seating,False,False,False,0.0
+8700,2.424861111111111,Seating,Seating,False,none,76.9,98.0,Seating,Seating,False,False,False,0.0
+8730,2.4331944444444447,Seating,Seating,False,none,77.33333333333333,97.96666666666667,Seating,Seating,False,False,False,0.0
+8760,2.441527777777778,Seating,Seating,False,none,80.68333333333334,97.91666666666667,Seating,Seating,False,False,False,0.0
+8790,2.4498611111111113,Seating,Seating,False,none,79.11666666666666,97.85,Seating,Seating,False,False,False,0.0
+8820,2.4581944444444446,Seating,Seating,False,none,75.23333333333333,97.78333333333333,Seating,Seating,False,False,False,0.0
+8850,2.466527777777778,Seating,Seating,False,none,75.53333333333333,98.21666666666667,Eating with cutlery,Eating with cutlery,False,True,True,1.0
+8880,2.474861111111111,Eating with cutlery,Eating with cutlery,False,none,78.55,97.81666666666666,Eating with cutlery,Eating with cutlery,False,True,True,1.0
+8910,2.4831944444444445,Eating with cutlery,Eating with cutlery,False,none,87.58333333333333,97.23333333333333,Eating with cutlery,Eating with cutlery,False,True,True,1.0
+8940,2.491527777777778,Eating with cutlery,Eating with cutlery,False,none,91.68333333333334,96.98333333333333,Eating with cutlery,Eating with cutlery,False,True,True,1.0
+8970,2.499861111111111,Eating with cutlery,Eating with cutlery,False,none,86.53333333333333,97.78333333333333,Seating,Eating with cutlery,False,True,True,1.0
+9000,2.5081944444444444,Eating with cutlery,Eating with cutlery,False,none,85.3,98.68333333333334,Laying,Eating with cutlery,False,True,True,1.0
+9030,2.5165277777777777,Eating with cutlery,Eating with cutlery,False,none,87.11666666666666,98.5,Seating,Seating,False,True,True,1.0
+9060,2.524861111111111,Eating with cutlery,Eating with cutlery,False,none,88.31666666666666,98.61666666666666,Eating with cutlery,Laying,False,True,True,1.0
+9090,2.5331944444444443,Eating with cutlery,Eating with cutlery,False,none,90.65,98.31666666666666,Seating,Laying,False,True,True,1.0
+9120,2.5415277777777776,Eating with cutlery,Eating with cutlery,False,none,87.7,97.91666666666667,Laying,Laying,False,True,True,1.0
+9150,2.549861111111111,Eating with cutlery,Eating with cutlery,False,none,81.91666666666667,98.03333333333333,Laying,Laying,False,True,True,1.0
+9180,2.5581944444444447,Eating with cutlery,Eating with cutlery,False,none,80.18333333333334,98.08333333333333,Laying,Laying,False,True,True,1.0
+9210,2.566527777777778,Eating with cutlery,Eating with cutlery,False,none,80.76666666666667,97.7,Laying,Laying,False,True,True,1.0
+9240,2.5748611111111113,Eating with cutlery,Eating with cutlery,False,none,86.65,97.8,Eating with cutlery,Eating with cutlery,False,True,True,0.12334797531366348
+9270,2.5831944444444446,Eating with cutlery,Eating with cutlery,False,none,93.85,97.43333333333334,Washing Teeth,Eating with cutlery,False,False,False,0.0
+9300,2.591527777777778,Eating with cutlery,Eating with cutlery,False,none,94.21666666666667,96.95,Eating with cutlery,Eating with cutlery,False,False,False,0.0
+9330,2.599861111111111,Eating with cutlery,Eating with cutlery,False,none,90.1,97.28333333333333,Seating,Seating,False,True,True,1.0
+9360,2.6081944444444445,Eating with cutlery,Eating with cutlery,False,none,88.2,97.63333333333334,Seating,Seating,False,True,True,1.0
+9390,2.616527777777778,Eating with cutlery,Eating with cutlery,False,none,88.38333333333334,97.05,Seating,Seating,False,True,True,1.0
+9420,2.624861111111111,Eating with cutlery,Eating with cutlery,False,none,88.76666666666667,97.3,Laying,Laying,False,True,True,1.0
+9450,2.6331944444444444,Eating with cutlery,Eating with cutlery,False,none,82.33333333333333,98.4,Laying,Laying,False,True,True,1.0
+9480,2.6415277777777777,Eating with cutlery,Eating with cutlery,False,none,82.93333333333334,97.78333333333333,Laying,Laying,False,True,True,1.0
+9510,2.649861111111111,Eating with cutlery,Eating with cutlery,False,none,91.03333333333333,96.58333333333333,Seating,Laying,False,True,True,1.0
+9540,2.6581944444444443,Eating with cutlery,Eating with cutlery,False,none,88.41666666666667,97.23333333333333,Eating with cutlery,Eating with cutlery,False,True,True,1.0
+9570,2.6665277777777776,Eating with cutlery,Eating with cutlery,False,none,85.71666666666667,98.46666666666667,Laying,Eating with cutlery,False,True,True,1.0
+9600,2.674861111111111,Eating with cutlery,Eating with cutlery,False,none,87.13333333333334,98.61666666666666,Eating with cutlery,Eating with cutlery,False,True,True,1.0
+9630,2.6831944444444447,Eating with cutlery,Eating with cutlery,False,none,87.88333333333334,98.5,Eating with cutlery,Eating with cutlery,False,True,True,1.0
+9660,2.691527777777778,Eating with cutlery,Eating with cutlery,False,none,89.7,98.4,Laying,Eating with cutlery,False,False,False,0.0
+9690,2.6998611111111113,Eating with cutlery,Eating with cutlery,False,none,90.05,98.11666666666666,Seating,Eating with cutlery,False,False,False,0.0
+9720,2.7081944444444446,Eating with cutlery,Eating with cutlery,False,none,84.26666666666667,97.98333333333333,Eating with cutlery,Laying,False,True,True,1.0
+9750,2.716527777777778,Eating with cutlery,Eating with cutlery,False,none,80.28333333333333,98.2,Laying,Laying,False,True,True,1.0
+9780,2.724861111111111,Eating with cutlery,Eating with cutlery,False,none,79.7,97.78333333333333,Laying,Eating with cutlery,False,True,True,1.0
+9810,2.7331944444444445,Eating with cutlery,Eating with cutlery,False,none,83.13333333333334,97.51666666666667,Seating,Eating with cutlery,False,True,True,1.0
+9840,2.741527777777778,Eating with cutlery,Eating with cutlery,False,none,91.3,97.83333333333333,Eating with cutlery,Eating with cutlery,False,True,True,1.0
+9870,2.749861111111111,Eating with cutlery,Eating with cutlery,False,none,94.9,97.13333333333334,Eating with cutlery,Eating with cutlery,False,False,False,0.0
+9900,2.7581944444444444,Eating with cutlery,Eating with cutlery,False,none,91.71666666666667,96.88333333333334,Eating with cutlery,Eating with cutlery,False,False,False,0.0
+9930,2.7665277777777777,Eating with cutlery,Eating with cutlery,False,none,89.13333333333334,97.95,Seating,Seating,False,True,True,1.0
+9960,2.774861111111111,Eating with cutlery,Eating with cutlery,False,none,84.8,97.86666666666666,Seating,Seating,False,False,False,0.0
+9990,2.7831944444444443,Seating,Seating,False,none,76.85,98.08333333333333,Seating,Seating,False,False,False,0.0
+10020,2.7915277777777776,Seating,Seating,False,none,73.13333333333334,98.61666666666666,Laying,Seating,False,False,False,0.0
+10050,2.799861111111111,Seating,Seating,False,none,74.05,98.41666666666667,Laying,Seating,False,False,False,0.0
+10080,2.8081944444444447,Seating,Seating,False,none,78.13333333333334,98.35,Seating,Seating,False,False,False,0.0
+10110,2.816527777777778,Seating,Seating,False,none,82.48333333333333,98.3,Seating,Seating,False,False,False,0.0
+10140,2.8248611111111113,Seating,Seating,False,none,86.7,98.21666666666667,Seating,Seating,False,False,False,0.0
+10170,2.8331944444444446,Seating,Seating,False,none,85.41666666666667,98.41666666666667,Seating,Seating,False,False,False,0.0
+10200,2.841527777777778,Seating,Seating,False,none,79.15,98.63333333333334,Laying,Laying,False,True,True,1.0
+10230,2.849861111111111,Seating,Seating,False,none,77.11666666666666,98.53333333333333,Laying,Laying,False,True,True,1.0
+10260,2.8581944444444445,Seating,Seating,False,none,77.58333333333333,98.41666666666667,Laying,Laying,False,True,True,1.0
+10290,2.866527777777778,Seating,Seating,False,none,78.53333333333333,98.11666666666666,Seating,Seating,False,False,False,0.0
+10320,2.874861111111111,Seating,Seating,False,none,78.46666666666667,98.01666666666667,Seating,Seating,False,False,False,0.0
+10350,2.8831944444444444,Seating,Seating,False,none,75.18333333333334,98.1,Seating,Seating,False,False,False,0.0
+10380,2.8915277777777777,Seating,Seating,False,none,73.46666666666667,98.2,Seating,Seating,False,False,False,0.0
+10410,2.899861111111111,Seating,Seating,False,none,75.03333333333333,97.8,Seating,Seating,False,False,False,0.0
+10440,2.9081944444444443,Seating,Seating,False,none,74.61666666666666,97.98333333333333,Seating,Seating,False,False,False,0.0
+10470,2.9165277777777776,Seating,Seating,False,none,75.68333333333334,98.63333333333334,Laying,Laying,False,True,True,1.0
+10500,2.924861111111111,Seating,Seating,False,none,75.66666666666667,98.58333333333333,Laying,Laying,False,True,True,1.0
+10530,2.9331944444444447,Seating,Seating,False,none,73.66666666666667,98.58333333333333,Laying,Laying,False,True,True,1.0
+10560,2.941527777777778,Seating,Seating,False,none,72.98333333333333,98.65,Laying,Laying,False,True,True,1.0
+10590,2.9498611111111113,Seating,Seating,False,none,73.53333333333333,98.46666666666667,Laying,Laying,False,True,True,1.0
+10620,2.9581944444444446,Seating,Seating,False,none,78.25,98.3,Laying,Laying,False,True,True,1.0
+10650,2.966527777777778,Seating,Seating,False,none,81.06666666666666,98.28333333333333,Seating,Seating,False,False,False,0.0
+10680,2.974861111111111,Seating,Seating,False,none,78.73333333333333,98.1,Seating,Seating,False,False,False,0.0
+10710,2.9831944444444445,Seating,Seating,False,none,77.16666666666667,98.03333333333333,Seating,Seating,False,False,False,0.0
+10740,2.991527777777778,Seating,Seating,False,none,77.5,98.06666666666666,Seating,Seating,False,False,False,0.0
+10770,2.999861111111111,Seating,Seating,False,none,76.65,98.0,Seating,Seating,False,False,False,0.0
+10800,3.0081944444444444,Seating,Seating,False,none,77.75,97.96666666666667,Seating,Seating,False,False,False,0.0
+10830,3.0165277777777777,Seating,Seating,False,none,80.93333333333334,97.91666666666667,Seating,Seating,False,False,False,0.0
+10860,3.024861111111111,Seating,Seating,False,none,78.38333333333334,97.85,Seating,Seating,False,False,False,0.0
+10890,3.0331944444444443,Seating,Seating,False,none,75.18333333333334,97.78333333333333,Seating,Seating,False,False,False,0.0
+10920,3.0415277777777776,Seating,Seating,False,none,76.43333333333334,97.68333333333334,Seating,Seating,False,False,False,0.0
+10950,3.049861111111111,Seating,Seating,False,none,74.5,98.18333333333334,Seating,Seating,False,False,False,0.0
+10980,3.0581944444444447,Seating,Seating,False,none,72.78333333333333,98.68333333333334,Laying,Laying,False,True,True,1.0
+11010,3.066527777777778,Seating,Seating,False,none,73.53333333333333,98.65,Laying,Eating with cutlery,False,True,True,1.0
+11040,3.0748611111111113,Seating,Seating,False,none,75.08333333333333,98.5,Eating with cutlery,Eating with cutlery,False,True,True,1.0
+11070,3.0831944444444446,Seating,Seating,False,none,80.53333333333333,98.18333333333334,Eating with cutlery,Eating with cutlery,False,True,True,1.0
+11100,3.091527777777778,Seating,Seating,False,none,85.4,98.11666666666666,Seating,Eating with cutlery,False,True,True,1.0
+11130,3.099861111111111,Seating,Seating,False,none,86.51666666666667,98.3,Seating,Eating with cutlery,False,True,True,1.0
+11160,3.1081944444444445,Seating,Seating,False,none,82.95,98.7,Eating with cutlery,Laying,False,True,True,1.0
+11190,3.116527777777778,Seating,Seating,False,none,77.21666666666667,98.61666666666666,Laying,Laying,False,True,True,1.0
+11220,3.124861111111111,Seating,Seating,False,none,77.01666666666667,98.3,Laying,Laying,False,True,True,1.0
+11250,3.1331944444444444,Seating,Seating,False,none,78.13333333333334,98.28333333333333,Laying,Laying,False,True,True,1.0
+11280,3.1415277777777777,Seating,Seating,False,none,78.96666666666667,98.03333333333333,Seating,Seating,False,True,True,1.0
+11310,3.149861111111111,Seating,Seating,False,none,77.11666666666666,98.01666666666667,Seating,Seating,False,True,True,1.0
+11340,3.1581944444444443,Seating,Seating,False,none,74.48333333333333,98.3,Seating,Seating,False,True,True,1.0
+11370,3.1665277777777776,Seating,Seating,False,none,73.4,98.03333333333333,Seating,Seating,False,True,True,1.0
+11400,3.174861111111111,Seating,Seating,False,none,73.93333333333334,97.88333333333334,Seating,Seating,False,True,True,1.0
+11430,3.1831944444444447,Seating,Seating,False,none,75.75,98.33333333333333,Seating,Seating,False,False,False,0.0
+11460,3.191527777777778,Seating,Seating,False,none,76.06666666666666,98.51666666666667,Laying,Laying,False,True,True,1.0
+11490,3.1998611111111113,Seating,Seating,False,none,74.95,98.55,Laying,Laying,False,True,True,1.0
+11520,3.2081944444444446,Seating,Seating,False,none,73.6,98.63333333333334,Laying,Laying,False,False,False,0.0
+11550,3.216527777777778,Seating,Seating,False,none,72.38333333333334,98.5,Laying,Laying,False,False,False,0.0
+11580,3.224861111111111,Seating,Seating,False,none,75.16666666666667,98.48333333333333,Laying,Laying,False,False,False,0.0
+11610,3.2331944444444445,Seating,Seating,False,none,80.58333333333333,98.35,Laying,Laying,False,False,False,0.0
+11640,3.241527777777778,Seating,Seating,False,none,80.5,98.1,Seating,Seating,False,True,True,1.0
+11670,3.249861111111111,Seating,Seating,False,none,77.93333333333334,98.08333333333333,Seating,Seating,False,True,True,1.0
+11700,3.2581944444444444,Seating,Seating,False,none,77.23333333333333,98.06666666666666,Seating,Seating,False,False,False,0.0
+11730,3.2665277777777777,Seating,Seating,False,none,76.96666666666667,98.03333333333333,Seating,Seating,False,False,False,0.0
+11760,3.274861111111111,Seating,Seating,False,none,76.95,97.98333333333333,Seating,Seating,False,False,False,0.0
+11790,3.2831944444444443,Washing Hands,Washing Hands,False,none,82.45,97.46666666666667,Seating,Seating,False,False,False,0.0
+11820,3.2915277777777776,Washing Hands,Washing Hands,False,none,90.2,97.46666666666667,Washing Teeth,Seating,False,False,False,0.0
+11850,3.299861111111111,Washing Teeth,Washing Teeth,False,none,94.55,97.91666666666667,Washing Teeth,Seating,False,False,False,0.0
+11880,3.3081944444444447,Washing Teeth,Washing Teeth,False,none,92.36666666666666,97.9,Seating,Seating,False,False,False,0.0
+11910,3.316527777777778,Washing Teeth,Washing Teeth,False,none,88.95,97.86666666666666,Seating,Laying,False,True,True,1.0
+11940,3.3248611111111113,Washing Teeth,Washing Teeth,True,duration,87.7,97.6,Laying,Seating,False,False,False,0.0
+11970,3.3331944444444446,Laying,Laying,True,duration,87.71666666666667,97.68333333333334,Laying,Seating,True,False,True,0.5
+12000,3.341527777777778,Laying,Laying,True,duration,86.68333333333334,97.98333333333333,Seating,Seating,True,False,True,0.5
+12030,3.349861111111111,Laying,Laying,True,duration,86.03333333333333,98.0,Seating,Seating,True,False,True,0.5
+12060,3.3581944444444445,Laying,Laying,True,duration,87.63333333333334,98.0,Seating,Seating,True,False,True,0.5
+12090,3.366527777777778,Laying,Laying,True,duration,85.75,98.0,Seating,Seating,True,False,True,0.5
+12120,3.374861111111111,Laying,Laying,True,duration,84.01666666666667,98.0,Seating,Seating,True,False,True,0.5
+12150,3.3831944444444444,Laying,Laying,True,duration,83.53333333333333,98.0,Seating,Seating,True,False,True,0.5
+12180,3.3915277777777777,Laying,Laying,True,duration,82.25,98.0,Seating,Seating,True,False,True,0.5
+12210,3.399861111111111,Laying,Laying,True,duration,81.8,97.65,Seating,Seating,True,False,True,0.5
+12240,3.4081944444444443,Laying,Laying,True,duration,82.85,97.61666666666666,Seating,Seating,True,False,True,0.5
+12270,3.4165277777777776,Laying,Laying,True,duration,83.2,97.96666666666667,Seating,Seating,True,False,True,0.5
+12300,3.424861111111111,Laying,Laying,True,duration,81.53333333333333,97.95,Seating,Seating,True,False,True,0.5
+12330,3.4331944444444447,Laying,Laying,True,duration,80.88333333333334,97.96666666666667,Seating,Seating,True,False,True,0.5
+12360,3.441527777777778,Laying,Laying,True,duration,87.5,98.0,Seating,Seating,True,False,True,0.5
+12390,3.4498611111111113,Laying,Laying,True,duration,93.9,97.9,Seating,Seating,True,False,True,0.5
+12420,3.4581944444444446,Laying,Laying,True,duration,88.55,98.01666666666667,Seating,Seating,True,False,True,0.5
+12450,3.466527777777778,Laying,Laying,True,duration,85.23333333333333,98.1,Seating,Seating,True,False,True,0.5
+12480,3.474861111111111,Laying,Laying,True,duration,89.08333333333333,97.9,Seating,Seating,True,False,True,0.5
+12510,3.4831944444444445,Laying,Laying,True,duration,88.36666666666666,97.73333333333333,Seating,Seating,True,False,True,0.5
+12540,3.491527777777778,Laying,Laying,True,duration,84.58333333333333,97.81666666666666,Seating,Seating,True,False,True,0.5
+12570,3.499861111111111,Laying,Laying,True,duration,85.01666666666667,97.98333333333333,Seating,Seating,True,False,True,0.5
+12600,3.5081944444444444,Laying,Laying,True,duration,88.46666666666667,97.88333333333334,Seating,Seating,True,False,True,0.5
+12630,3.5165277777777777,Laying,Laying,True,duration,92.73333333333333,97.61666666666666,Seating,Seating,True,False,True,0.5
+12660,3.524861111111111,Laying,Laying,True,duration,92.43333333333334,97.31666666666666,Seating,Seating,True,False,True,0.5
+12690,3.5331944444444443,Laying,Laying,True,duration,87.83333333333333,97.7,Seating,Seating,True,False,True,0.5
+12720,3.5415277777777776,Laying,Laying,True,duration,85.98333333333333,98.0,Seating,Seating,True,False,True,0.5
+12750,3.549861111111111,Laying,Laying,True,duration,84.93333333333334,97.68333333333334,Seating,Seating,True,False,True,0.5
+12780,3.5581944444444447,Laying,Laying,True,duration,83.66666666666667,97.3,Seating,Seating,True,False,True,0.5
+12810,3.566527777777778,Laying,Laying,True,duration,85.83333333333333,97.01666666666667,Seating,Seating,True,False,True,0.5
+12840,3.5748611111111113,Laying,Laying,True,duration,86.73333333333333,96.75,Seating,Seating,True,False,True,0.5
+12870,3.5831944444444446,Laying,Laying,True,duration,82.23333333333333,96.65,Seating,Seating,True,False,True,0.5
+12900,3.591527777777778,Laying,Laying,True,duration,79.2,97.3,Seating,Seating,True,False,True,0.5
+12930,3.599861111111111,Laying,Laying,True,duration,81.71666666666667,97.4,Seating,Seating,True,False,True,0.5
+12960,3.6081944444444445,Laying,Laying,True,duration,85.03333333333333,97.66666666666667,Seating,Seating,True,False,True,0.5
+12990,3.616527777777778,Laying,Laying,True,duration,86.63333333333334,98.15,Seating,Seating,True,False,True,0.5
+13020,3.624861111111111,Laying,Laying,True,duration,88.53333333333333,98.0,Seating,Seating,True,False,True,0.5
+13050,3.6331944444444444,Laying,Laying,True,duration,86.63333333333334,98.0,Seating,Seating,True,False,True,0.5
+13080,3.6415277777777777,Laying,Laying,True,duration,83.98333333333333,98.0,Seating,Seating,True,False,True,0.5
+13110,3.649861111111111,Laying,Laying,True,duration,84.28333333333333,98.0,Seating,Seating,True,False,True,0.5
+13140,3.6581944444444443,Laying,Laying,True,duration,82.78333333333333,98.0,Seating,Seating,True,False,True,0.5
+13170,3.6665277777777776,Laying,Laying,True,duration,82.26666666666667,97.91666666666667,Seating,Seating,True,False,True,0.5
+13200,3.674861111111111,Laying,Laying,True,duration,83.06666666666666,97.61666666666666,Seating,Seating,True,False,True,0.5
+13230,3.6831944444444447,Laying,Laying,True,duration,82.75,97.7,Seating,Seating,True,False,True,0.5
+13260,3.691527777777778,Laying,Laying,True,duration,82.25,97.95,Seating,Seating,True,False,True,0.5
+13290,3.6998611111111113,Laying,Laying,True,duration,80.53333333333333,97.95,Seating,Seating,True,False,True,0.5
+13320,3.7081944444444446,Laying,Laying,True,duration,83.58333333333333,98.25,Seating,Seating,True,False,True,0.5
+13350,3.716527777777778,Laying,Laying,True,duration,91.35,97.93333333333334,Seating,Seating,True,False,True,0.5
+13380,3.724861111111111,Laying,Laying,True,duration,91.68333333333334,97.75,Seating,Seating,True,False,True,0.5
+13410,3.7331944444444445,Laying,Laying,True,duration,84.81666666666666,98.08333333333333,Seating,Seating,True,False,True,0.5
+13440,3.741527777777778,Laying,Laying,True,duration,88.13333333333334,97.95,Seating,Seating,True,False,True,0.5
+13470,3.749861111111111,Laying,Laying,True,duration,91.13333333333334,97.76666666666667,Seating,Seating,True,False,True,0.5
+13500,3.7581944444444444,Laying,Laying,True,duration,85.65,97.78333333333333,Seating,Seating,True,False,True,0.5
+13530,3.7665277777777777,Laying,Laying,True,duration,84.23333333333333,97.95,Seating,Seating,True,False,True,0.5
+13560,3.774861111111111,Laying,Laying,True,duration,85.11666666666666,98.0,Seating,Seating,True,False,True,0.5
+13590,3.7831944444444443,Laying,Laying,True,duration,90.85,97.88333333333334,Seating,Seating,True,False,True,0.5
+13620,3.7915277777777776,Laying,Laying,True,duration,94.18333333333334,97.2,Seating,Seating,True,False,True,0.5
+13650,3.799861111111111,Laying,Laying,True,duration,89.21666666666667,97.31666666666666,Seating,Seating,True,False,True,0.5
+13680,3.8081944444444447,Laying,Laying,True,duration,86.5,98.0,Seating,Seating,True,False,True,0.5
+13710,3.816527777777778,Laying,Laying,True,duration,86.18333333333334,98.0,Seating,Seating,True,False,True,0.5
+13740,3.8248611111111113,Laying,Laying,True,duration,83.96666666666667,97.56666666666666,Seating,Seating,True,False,True,0.5
+13770,3.8331944444444446,Laying,Laying,True,duration,85.16666666666667,97.11666666666666,Seating,Seating,True,False,True,0.5
+13800,3.841527777777778,Laying,Laying,True,duration,87.26666666666667,96.8,Seating,Seating,True,False,True,0.5
+13830,3.849861111111111,Laying,Laying,True,duration,84.28333333333333,96.7,Seating,Seating,True,False,True,0.5
+13860,3.8581944444444445,Laying,Laying,True,duration,80.21666666666667,96.98333333333333,Seating,Seating,True,False,True,0.5
+13890,3.866527777777778,Laying,Laying,True,duration,79.68333333333334,97.21666666666667,Seating,Seating,True,False,True,0.5
+13920,3.874861111111111,Laying,Laying,True,duration,84.46666666666667,97.66666666666667,Seating,Seating,True,False,True,0.5
+13950,3.8831944444444444,Laying,Laying,True,duration,86.45,97.98333333333333,Seating,Seating,True,False,True,0.5
+13980,3.8915277777777777,Laying,Laying,True,duration,85.76666666666667,98.0,Seating,Seating,True,False,True,0.5
+14010,3.899861111111111,Laying,Laying,True,duration,87.85,98.0,Seating,Seating,True,False,True,0.5
+14040,3.9081944444444443,Laying,Laying,True,duration,86.08333333333333,98.0,Seating,Seating,True,False,True,0.5
+14070,3.9165277777777776,Laying,Laying,True,duration,83.86666666666666,98.0,Seating,Seating,True,False,True,0.5
+14100,3.924861111111111,Laying,Laying,True,duration,83.58333333333333,98.0,Seating,Seating,True,False,True,0.5
+14130,3.9331944444444447,Laying,Laying,True,duration,82.31666666666666,98.0,Seating,Seating,True,False,True,0.5
+14160,3.941527777777778,Laying,Laying,True,duration,81.78333333333333,97.68333333333334,Seating,Seating,True,False,True,0.5
+14190,3.9498611111111113,Laying,Laying,True,duration,82.81666666666666,97.61666666666666,Seating,Seating,True,False,True,0.5
+14220,3.9581944444444446,Laying,Laying,True,duration,83.16666666666667,97.93333333333334,Seating,Seating,True,False,True,0.5
+14250,3.966527777777778,Laying,Laying,True,duration,81.73333333333333,97.95,Seating,Seating,True,False,True,0.5
+14280,3.974861111111111,Laying,Laying,True,duration,80.45,97.95,Seating,Seating,True,False,True,0.5
+14310,3.9831944444444445,Laying,Laying,True,duration,86.96666666666667,98.06666666666666,Seating,Seating,True,False,True,0.5
+14340,3.991527777777778,Laying,Laying,True,duration,94.18333333333334,97.91666666666667,Seating,Seating,True,False,True,0.5
+14370,3.999861111111111,Laying,Laying,True,duration,88.95,97.95,Seating,Seating,True,False,True,0.5
+14400,4.008194444444444,Laying,Laying,True,duration,84.75,98.1,Seating,Seating,True,False,True,0.5
+14430,4.016527777777778,Laying,Laying,True,duration,88.91666666666667,97.9,Seating,Seating,True,False,True,0.5
+14460,4.024861111111111,Laying,Laying,True,duration,88.93333333333334,97.76666666666667,Seating,Seating,True,False,True,0.5
+14490,4.033194444444445,Laying,Laying,True,duration,84.75,97.81666666666666,Seating,Seating,True,False,True,0.5
+14520,4.041527777777778,Laying,Laying,True,duration,84.98333333333333,97.95,Seating,Seating,True,False,True,0.5
+14550,4.049861111111111,Laying,Laying,True,duration,87.81666666666666,97.88333333333334,Seating,Seating,True,False,True,0.5
+14580,4.058194444444444,Laying,Laying,True,duration,92.53333333333333,97.65,Seating,Seating,True,False,True,0.5
+14610,4.066527777777778,Laying,Laying,True,duration,93.08333333333333,97.31666666666666,Seating,Seating,True,False,True,0.5
+14640,4.074861111111111,Laying,Laying,True,duration,87.93333333333334,97.66666666666667,Seating,Seating,True,False,True,0.5
+14670,4.083194444444445,Laying,Laying,True,duration,85.88333333333334,98.0,Seating,Seating,True,False,True,0.5
+14700,4.091527777777777,Laying,Laying,True,duration,85.05,97.68333333333334,Seating,Seating,True,False,True,0.5
+14730,4.099861111111111,Laying,Laying,True,duration,83.66666666666667,97.33333333333333,Seating,Seating,True,False,True,0.5
+14760,4.108194444444444,Laying,Laying,True,duration,85.66666666666667,97.08333333333333,Seating,Seating,True,False,True,0.5
+14790,4.116527777777778,Laying,Laying,True,duration,86.93333333333334,96.75,Seating,Seating,True,False,True,0.5
+14820,4.1248611111111115,Laying,Laying,True,duration,82.41666666666667,96.61666666666666,Seating,Seating,True,False,True,0.5
+14850,4.133194444444444,Laying,Laying,True,duration,79.23333333333333,97.26666666666667,Seating,Seating,True,False,True,0.5
+14880,4.141527777777778,Laying,Laying,True,duration,81.48333333333333,97.43333333333334,Seating,Seating,True,False,True,0.5
+14910,4.149861111111111,Laying,Laying,True,duration,84.85,97.66666666666667,Seating,Seating,True,False,True,0.5
+14940,4.158194444444445,Laying,Laying,True,duration,86.8,98.08333333333333,Seating,Seating,True,False,True,0.5
+14970,4.166527777777778,Laying,Laying,True,duration,88.33333333333333,98.0,Seating,Seating,True,False,True,0.5
+15000,4.174861111111111,Laying,Laying,True,duration,86.7,98.0,Seating,Seating,True,False,True,0.5
+15030,4.183194444444444,Laying,Laying,True,duration,84.2,98.0,Seating,Seating,True,False,True,0.5
+15060,4.191527777777778,Laying,Laying,True,duration,84.31666666666666,98.0,Seating,Seating,True,False,True,0.5
+15090,4.199861111111111,Laying,Laying,True,duration,82.83333333333333,98.0,Seating,Seating,True,False,True,0.5
+15120,4.208194444444445,Laying,Laying,True,duration,82.25,97.95,Seating,Seating,True,False,True,0.5
+15150,4.216527777777777,Laying,Laying,True,duration,82.91666666666667,97.61666666666666,Seating,Seating,True,False,True,0.5
+15180,4.224861111111111,Laying,Laying,True,duration,82.7,97.66666666666667,Seating,Seating,True,False,True,0.5
+15210,4.233194444444444,Laying,Laying,True,duration,82.36666666666666,97.95,Seating,Seating,True,False,True,0.5
+15240,4.241527777777778,Laying,Laying,True,duration,80.7,97.95,Seating,Seating,True,False,True,0.5
+15270,4.2498611111111115,Laying,Laying,True,duration,83.26666666666667,98.21666666666667,Seating,Seating,True,False,True,0.5
+15300,4.258194444444444,Laying,Laying,True,duration,90.86666666666666,97.95,Seating,Seating,True,False,True,0.5
+15330,4.266527777777778,Laying,Laying,True,duration,91.98333333333333,97.75,Seating,Seating,True,False,True,0.5
+15360,4.274861111111111,Laying,Laying,True,duration,85.3,98.06666666666666,Seating,Seating,True,False,True,0.5
+15390,4.283194444444445,Laying,Laying,True,duration,87.83333333333333,97.98333333333333,Seating,Seating,True,False,True,0.5
+15420,4.291527777777778,Laying,Laying,True,duration,90.8,97.83333333333333,Seating,Seating,True,False,True,0.5
+15450,4.299861111111111,Laying,Laying,True,duration,85.91666666666667,97.78333333333333,Seating,Seating,True,False,True,0.5
+15480,4.308194444444444,Laying,Laying,True,duration,84.05,97.88333333333334,Seating,Seating,True,False,True,0.5
+15510,4.316527777777778,Laying,Laying,True,duration,85.13333333333334,98.0,Seating,Seating,True,False,True,0.5
+15540,4.324861111111111,Laying,Laying,True,duration,90.76666666666667,97.88333333333334,Seating,Seating,True,False,True,0.5
+15570,4.333194444444445,Laying,Laying,True,duration,93.85,97.21666666666667,Seating,Seating,True,False,True,0.5
+15600,4.341527777777777,Laying,Laying,True,duration,89.68333333333334,97.31666666666666,Seating,Seating,True,False,True,0.5
+15630,4.349861111111111,Laying,Laying,True,duration,86.81666666666666,97.98333333333333,Seating,Seating,True,False,True,0.5
+15660,4.358194444444444,Laying,Laying,True,duration,86.15,98.0,Seating,Seating,True,False,True,0.5
+15690,4.366527777777778,Laying,Laying,True,duration,84.1,97.6,Seating,Seating,True,False,True,0.5
+15720,4.3748611111111115,Laying,Laying,True,duration,85.06666666666666,97.15,Seating,Seating,True,False,True,0.5
+15750,4.383194444444444,Laying,Laying,True,duration,86.9,96.83333333333333,Seating,Seating,True,False,True,0.5
+15780,4.391527777777778,Laying,Laying,True,duration,84.51666666666667,96.7,Seating,Seating,True,False,True,0.5
+15810,4.399861111111111,Laying,Laying,True,duration,80.65,96.91666666666667,Seating,Seating,True,False,True,0.5
+15840,4.408194444444445,Laying,Laying,True,duration,79.7,97.18333333333334,Seating,Seating,True,False,True,0.5
+15870,4.416527777777778,Laying,Laying,True,duration,84.21666666666667,97.65,Seating,Seating,True,False,True,0.5
+15900,4.424861111111111,Laying,Laying,True,duration,86.16666666666667,97.98333333333333,Seating,Seating,True,False,True,0.5
+15930,4.433194444444444,Laying,Laying,True,duration,85.65,98.01666666666667,Seating,Seating,True,False,True,0.5
+15960,4.441527777777778,Laying,Laying,True,duration,88.08333333333333,98.0,Seating,Seating,True,False,True,0.5
+15990,4.449861111111111,Laying,Laying,True,duration,86.38333333333334,98.0,Seating,Seating,True,False,True,0.5
+16020,4.458194444444445,Laying,Laying,True,duration,83.66666666666667,98.0,Seating,Seating,True,False,True,0.5
+16050,4.466527777777777,Laying,Laying,True,duration,83.55,98.0,Seating,Seating,True,False,True,0.5
+16080,4.474861111111111,Laying,Laying,True,duration,82.43333333333334,98.0,Seating,Seating,True,False,True,0.5
+16110,4.483194444444444,Laying,Laying,True,duration,81.85,97.71666666666667,Seating,Seating,True,False,True,0.5
+16140,4.491527777777778,Laying,Laying,True,duration,82.86666666666666,97.61666666666666,Seating,Seating,True,False,True,0.5
+16170,4.4998611111111115,Laying,Laying,True,duration,83.13333333333334,97.9,Seating,Seating,True,False,True,0.5
+16200,4.508194444444444,Laying,Laying,True,duration,81.83333333333333,97.95,Seating,Seating,True,False,True,0.5
+16230,4.516527777777778,Laying,Laying,True,duration,80.16666666666667,97.95,Seating,Seating,True,False,True,0.5
+16260,4.524861111111111,Laying,Laying,True,duration,86.46666666666667,98.1,Seating,Seating,True,False,True,0.5
+16290,4.533194444444445,Laying,Laying,True,duration,94.26666666666667,97.91666666666667,Seating,Seating,True,False,True,0.5
+16320,4.541527777777778,Laying,Laying,True,duration,89.3,97.91666666666667,Seating,Seating,True,False,True,0.5
+16350,4.549861111111111,Laying,Laying,True,duration,84.35,98.1,Seating,Seating,True,False,True,0.5
+16380,4.558194444444444,Laying,Laying,True,duration,88.73333333333333,97.9,Seating,Seating,True,False,True,0.5
+16410,4.566527777777778,Laying,Laying,True,duration,89.46666666666667,97.76666666666667,Seating,Seating,True,False,True,0.5
+16440,4.574861111111111,Laying,Laying,True,duration,84.95,97.81666666666666,Seating,Seating,True,False,True,0.5
+16470,4.583194444444445,Laying,Laying,True,duration,84.95,97.95,Seating,Seating,True,False,True,0.5
+16500,4.591527777777777,Laying,Laying,True,duration,86.85,97.88333333333334,Seating,Seating,True,False,True,0.5
+16530,4.599861111111111,Laying,Laying,True,duration,92.33333333333333,97.68333333333334,Seating,Seating,True,False,True,0.5
+16560,4.608194444444444,Laying,Laying,True,duration,94.01666666666667,97.31666666666666,Seating,Seating,True,False,True,0.5
+16590,4.616527777777778,Laying,Laying,True,duration,88.03333333333333,97.61666666666666,Seating,Seating,True,False,True,0.5
+16620,4.6248611111111115,Laying,Laying,True,duration,85.81666666666666,98.0,Seating,Seating,True,False,True,0.5
+16650,4.633194444444444,Laying,Laying,True,duration,85.18333333333334,97.76666666666667,Seating,Seating,True,False,True,0.5
+16680,4.641527777777778,Laying,Laying,True,duration,83.66666666666667,97.36666666666666,Seating,Seating,True,False,True,0.5
+16710,4.649861111111111,Laying,Laying,True,duration,85.46666666666667,97.05,Seating,Seating,True,False,True,0.5
+16740,4.658194444444445,Laying,Laying,True,duration,87.13333333333334,96.75,Seating,Seating,True,False,True,0.5
+16770,4.666527777777778,Laying,Laying,True,duration,82.71666666666667,96.65,Seating,Seating,True,False,True,0.5
+16800,4.674861111111111,Laying,Laying,True,duration,79.26666666666667,97.23333333333333,Seating,Seating,True,False,True,0.5
+16830,4.683194444444444,Laying,Laying,True,duration,81.13333333333334,97.41666666666667,Seating,Seating,True,False,True,0.5
+16860,4.691527777777778,Laying,Laying,True,duration,84.78333333333333,97.66666666666667,Seating,Seating,True,False,True,0.5
+16890,4.699861111111111,Laying,Laying,True,duration,87.0,98.03333333333333,Seating,Seating,True,False,True,0.5
+16920,4.708194444444445,Laying,Laying,True,duration,88.0,98.0,Seating,Seating,True,False,True,0.5
+16950,4.716527777777777,Laying,Laying,True,duration,86.75,98.0,Seating,Seating,True,False,True,0.5
+16980,4.724861111111111,Laying,Laying,True,duration,84.31666666666666,98.0,Seating,Seating,True,False,True,0.5
+17010,4.733194444444444,Laying,Laying,True,duration,84.3,98.0,Seating,Seating,True,False,True,0.5
+17040,4.741527777777778,Laying,Laying,True,duration,83.05,98.0,Seating,Seating,True,False,True,0.5
+17070,4.7498611111111115,Laying,Laying,True,duration,82.2,97.95,Seating,Seating,True,False,True,0.5
+17100,4.758194444444444,Laying,Laying,True,duration,82.6,97.61666666666666,Seating,Seating,True,False,True,0.5
+17130,4.766527777777778,Laying,Laying,True,duration,82.73333333333333,97.66666666666667,Seating,Seating,True,False,True,0.5
+17160,4.774861111111111,Laying,Laying,True,duration,82.65,97.95,Seating,Seating,True,False,True,0.5
+17190,4.783194444444445,Laying,Laying,True,duration,80.86666666666666,97.95,Seating,Seating,True,False,True,0.5
+17220,4.791527777777778,Laying,Laying,True,duration,82.9,98.18333333333334,Seating,Seating,True,False,True,0.5
+17250,4.799861111111111,Laying,Laying,True,duration,90.4,97.95,Seating,Seating,True,False,True,0.5
+17280,4.808194444444444,Laying,Laying,True,duration,92.28333333333333,97.75,Seating,Seating,True,False,True,0.5
+17310,4.816527777777778,Laying,Laying,True,duration,85.76666666666667,98.06666666666666,Seating,Seating,True,False,True,0.5
+17340,4.824861111111111,Laying,Laying,True,duration,87.43333333333334,98.01666666666667,Seating,Seating,True,False,True,0.5
+17370,4.833194444444445,Laying,Laying,True,duration,90.46666666666667,97.9,Seating,Seating,True,False,True,0.5
+17400,4.841527777777777,Laying,Laying,True,duration,86.28333333333333,97.78333333333333,Seating,Seating,True,False,True,0.5
+17430,4.849861111111111,Laying,Laying,True,duration,83.96666666666667,97.81666666666666,Seating,Seating,True,False,True,0.5
+17460,4.858194444444444,Laying,Laying,True,duration,85.1,98.0,Seating,Seating,True,False,True,0.5
+17490,4.866527777777778,Laying,Laying,True,duration,90.58333333333333,97.88333333333334,Seating,Seating,True,False,True,0.5
+17520,4.8748611111111115,Laying,Laying,True,duration,93.6,97.31666666666666,Seating,Seating,True,False,True,0.5
+17550,4.883194444444444,Laying,Laying,True,duration,90.15,97.31666666666666,Seating,Seating,True,False,True,0.5
+17580,4.891527777777778,Laying,Laying,True,duration,87.1,97.88333333333334,Seating,Seating,True,False,True,0.5
+17610,4.899861111111111,Laying,Laying,True,duration,86.11666666666666,98.0,Seating,Seating,True,False,True,0.5
+17640,4.908194444444445,Laying,Laying,True,duration,84.23333333333333,97.63333333333334,Seating,Seating,True,False,True,0.5
+17670,4.916527777777778,Laying,Laying,True,duration,84.8,97.16666666666667,Seating,Seating,True,False,True,0.5
+17700,4.924861111111111,Laying,Laying,True,duration,86.65,96.85,Seating,Seating,True,False,True,0.5
+17730,4.933194444444444,Laying,Laying,True,duration,84.91666666666667,96.71666666666667,Seating,Seating,True,False,True,0.5
+17760,4.941527777777778,Laying,Laying,True,duration,80.96666666666667,96.86666666666666,Seating,Seating,True,False,True,0.5
+17790,4.949861111111111,Laying,Laying,True,duration,79.78333333333333,97.15,Seating,Seating,True,False,True,0.5
+17820,4.958194444444445,Laying,Laying,True,duration,83.93333333333334,97.61666666666666,Seating,Seating,True,False,True,0.5
+17850,4.966527777777777,Laying,Laying,True,duration,85.81666666666666,97.98333333333333,Seating,Seating,True,False,True,0.5
+17880,4.974861111111111,Laying,Laying,True,duration,85.6,98.05,Seating,Seating,True,False,True,0.5
+17910,4.983194444444444,Laying,Laying,True,duration,88.31666666666666,98.0,Seating,Seating,True,False,True,0.5
+17940,4.991527777777778,Laying,Laying,True,duration,86.61666666666666,98.0,Seating,Seating,True,False,True,0.5
+17970,4.9998611111111115,Laying,Laying,True,duration,83.46666666666667,98.0,Seating,Seating,True,False,True,0.5
+18000,5.008194444444444,Laying,Laying,True,duration,83.55,98.0,Seating,Seating,True,False,True,0.5
+18030,5.016527777777778,Laying,Laying,True,duration,82.56666666666666,98.0,Seating,Seating,True,False,True,0.5
+18060,5.024861111111111,Laying,Laying,True,duration,81.91666666666667,97.75,Seating,Seating,True,False,True,0.5
+18090,5.033194444444445,Laying,Laying,True,duration,82.93333333333334,97.61666666666666,Seating,Seating,True,False,True,0.5
+18120,5.041527777777778,Laying,Laying,True,duration,83.1,97.86666666666666,Seating,Seating,True,False,True,0.5
+18150,5.049861111111111,Laying,Laying,True,duration,82.0,97.95,Seating,Seating,True,False,True,0.5
+18180,5.058194444444444,Laying,Laying,True,duration,80.08333333333333,97.95,Seating,Seating,True,False,True,0.5
+18210,5.066527777777778,Laying,Laying,True,duration,85.86666666666666,98.13333333333334,Seating,Seating,True,False,True,0.5
+18240,5.074861111111111,Laying,Laying,True,duration,94.11666666666666,97.91666666666667,Seating,Seating,True,False,True,0.5
+18270,5.083194444444445,Laying,Laying,True,duration,89.68333333333334,97.88333333333334,Seating,Seating,True,False,True,0.5
+18300,5.091527777777777,Laying,Laying,True,duration,84.05,98.1,Seating,Seating,True,False,True,0.5
+18330,5.099861111111111,Laying,Laying,True,duration,88.63333333333334,97.9,Seating,Seating,True,False,True,0.5
+18360,5.108194444444444,Laying,Laying,True,duration,89.93333333333334,97.76666666666667,Seating,Seating,True,False,True,0.5
+18390,5.116527777777778,Laying,Laying,True,duration,85.1,97.81666666666666,Seating,Seating,True,False,True,0.5
+18420,5.1248611111111115,Laying,Laying,True,duration,84.91666666666667,97.95,Seating,Seating,True,False,True,0.5
+18450,5.133194444444444,Laying,Laying,True,duration,86.03333333333333,97.88333333333334,Seating,Seating,True,False,True,0.5
+18480,5.141527777777778,Laying,Laying,True,duration,92.05,97.71666666666667,Seating,Seating,True,False,True,0.5
+18510,5.149861111111111,Laying,Laying,True,duration,94.7,97.31666666666666,Seating,Seating,True,False,True,0.5
+18540,5.158194444444445,Laying,Laying,True,duration,88.11666666666666,97.55,Seating,Seating,True,False,True,0.5
+18570,5.166527777777778,Laying,Laying,True,duration,85.78333333333333,98.0,Seating,Seating,True,False,True,0.5
+18600,5.174861111111111,Laying,Laying,True,duration,85.41666666666667,97.86666666666666,Seating,Seating,True,False,True,0.5
+18630,5.183194444444444,Laying,Laying,True,duration,83.66666666666667,97.4,Seating,Seating,True,False,True,0.5
+18660,5.191527777777778,Laying,Laying,True,duration,85.33333333333333,97.01666666666667,Seating,Seating,True,False,True,0.5
+18690,5.199861111111111,Laying,Laying,True,duration,87.33333333333333,96.75,Seating,Seating,True,False,True,0.5
+18720,5.208194444444445,Laying,Laying,True,duration,83.0,96.66666666666667,Seating,Seating,True,False,True,0.5
+18750,5.216527777777777,Laying,Laying,True,duration,79.3,97.2,Seating,Seating,True,False,True,0.5
+18780,5.224861111111111,Laying,Laying,True,duration,80.71666666666667,97.4,Seating,Seating,True,False,True,0.5
+18810,5.233194444444444,Laying,Laying,True,duration,84.75,97.66666666666667,Seating,Seating,True,False,True,0.5
+18840,5.241527777777778,Laying,Laying,True,duration,87.2,98.0,Seating,Seating,True,False,True,0.5
+18870,5.2498611111111115,Laying,Laying,True,duration,87.63333333333334,98.0,Seating,Seating,True,False,True,0.5
+18900,5.258194444444444,Laying,Laying,True,duration,86.81666666666666,98.0,Seating,Seating,True,False,True,0.5
+18930,5.266527777777778,Laying,Laying,True,duration,84.43333333333334,98.0,Seating,Seating,True,False,True,0.5
+18960,5.274861111111111,Laying,Laying,True,duration,84.26666666666667,98.0,Seating,Seating,True,False,True,0.5
+18990,5.283194444444445,Laying,Laying,True,duration,83.26666666666667,98.0,Seating,Seating,True,False,True,0.5
+19020,5.291527777777778,Laying,Laying,True,duration,82.2,97.95,Seating,Seating,True,False,True,0.5
+19050,5.299861111111111,Laying,Laying,True,duration,82.3,97.61666666666666,Seating,Seating,True,False,True,0.5
+19080,5.308194444444444,Laying,Laying,True,duration,82.78333333333333,97.66666666666667,Seating,Seating,True,False,True,0.5
+19110,5.316527777777778,Laying,Laying,True,duration,82.93333333333334,97.95,Seating,Seating,True,False,True,0.5
+19140,5.324861111111111,Laying,Laying,True,duration,80.98333333333333,97.95,Seating,Seating,True,False,True,0.5
+19170,5.333194444444445,Laying,Laying,True,duration,82.51666666666667,98.15,Seating,Seating,True,False,True,0.5
+19200,5.341527777777777,Laying,Laying,True,duration,89.86666666666666,97.95,Seating,Seating,True,False,True,0.5
+19230,5.349861111111111,Laying,Laying,True,duration,92.6,97.76666666666667,Seating,Seating,True,False,True,0.5
+19260,5.358194444444444,Laying,Laying,True,duration,86.3,98.06666666666666,Seating,Seating,True,False,True,0.5
+19290,5.366527777777778,Laying,Laying,True,duration,86.95,98.06666666666666,Seating,Seating,True,False,True,0.5
+19320,5.3748611111111115,Laying,Laying,True,duration,90.16666666666667,97.9,Seating,Seating,True,False,True,0.5
+19350,5.383194444444444,Laying,Laying,True,duration,86.71666666666667,97.75,Seating,Seating,True,False,True,0.5
+19380,5.391527777777778,Laying,Laying,True,duration,84.05,97.81666666666666,Seating,Seating,True,False,True,0.5
+19410,5.399861111111111,Laying,Laying,True,duration,85.03333333333333,98.0,Seating,Seating,True,False,True,0.5
+19440,5.408194444444445,Laying,Laying,True,duration,90.2,97.88333333333334,Seating,Seating,True,False,True,0.5
+19470,5.416527777777778,Laying,Laying,True,duration,93.45,97.41666666666667,Seating,Seating,True,False,True,0.5
+19500,5.424861111111111,Laying,Laying,True,duration,90.61666666666666,97.31666666666666,Seating,Seating,True,False,True,0.5
+19530,5.433194444444444,Laying,Laying,True,duration,87.31666666666666,97.8,Seating,Seating,True,False,True,0.5
+19560,5.441527777777778,Laying,Laying,True,duration,86.08333333333333,98.0,Seating,Seating,True,False,True,0.5
+19590,5.449861111111111,Laying,Laying,True,duration,84.36666666666666,97.65,Seating,Seating,True,False,True,0.5
+19620,5.458194444444445,Laying,Laying,True,duration,84.48333333333333,97.16666666666667,Seating,Seating,True,False,True,0.5
+19650,5.466527777777777,Laying,Laying,True,duration,86.45,96.88333333333334,Seating,Seating,True,False,True,0.5
+19680,5.474861111111111,Laying,Laying,True,duration,85.36666666666666,96.75,Seating,Seating,True,False,True,0.5
+19710,5.483194444444444,Laying,Laying,True,duration,81.23333333333333,96.8,Seating,Seating,True,False,True,0.5
+19740,5.491527777777778,Laying,Laying,True,duration,79.95,97.11666666666666,Seating,Seating,True,False,True,0.5
+19770,5.4998611111111115,Laying,Laying,True,duration,83.6,97.58333333333333,Seating,Seating,True,False,True,0.5
+19800,5.508194444444444,Laying,Laying,True,duration,85.38333333333334,97.98333333333333,Seating,Seating,True,False,True,0.5
+19830,5.516527777777778,Laying,Laying,True,duration,85.6,98.08333333333333,Seating,Seating,True,False,True,0.5
+19860,5.524861111111111,Laying,Laying,True,duration,88.48333333333333,98.0,Seating,Seating,True,False,True,0.5
+19890,5.533194444444445,Laying,Laying,True,duration,86.68333333333334,98.0,Seating,Seating,True,False,True,0.5
+19920,5.541527777777778,Laying,Laying,True,duration,83.35,98.0,Seating,Seating,True,False,True,0.5
+19950,5.549861111111111,Laying,Laying,True,duration,83.71666666666667,98.0,Seating,Seating,True,False,True,0.5
+19980,5.558194444444444,Laying,Laying,True,duration,82.68333333333334,98.0,Seating,Seating,True,False,True,0.5
+20010,5.566527777777778,Laying,Laying,True,duration,81.98333333333333,97.78333333333333,Seating,Seating,True,False,True,0.5
+20040,5.574861111111111,Laying,Laying,True,duration,83.0,97.61666666666666,Seating,Seating,True,False,True,0.5
+20070,5.583194444444445,Laying,Laying,True,duration,83.06666666666666,97.83333333333333,Seating,Seating,True,False,True,0.5
+20100,5.591527777777777,Laying,Laying,True,duration,82.16666666666667,97.95,Seating,Seating,True,False,True,0.5
+20130,5.599861111111111,Laying,Laying,True,duration,80.1,97.95,Seating,Seating,True,False,True,0.5
+20160,5.608194444444444,Laying,Laying,True,duration,85.26666666666667,98.16666666666667,Seating,Seating,True,False,True,0.5
+20190,5.616527777777778,Laying,Laying,True,duration,93.81666666666666,97.91666666666667,Seating,Seating,True,False,True,0.5
+20220,5.6248611111111115,Laying,Laying,True,duration,90.08333333333333,97.85,Seating,Seating,True,False,True,0.5
+20250,5.633194444444444,Laying,Laying,True,duration,83.83333333333333,98.1,Seating,Seating,True,False,True,0.5
+20280,5.641527777777778,Laying,Laying,True,duration,88.56666666666666,97.9,Seating,Seating,True,False,True,0.5
+20310,5.649861111111111,Laying,Laying,True,duration,90.36666666666666,97.76666666666667,Seating,Seating,True,False,True,0.5
+20340,5.658194444444445,Laying,Laying,True,duration,85.2,97.81666666666666,Seating,Seating,True,False,True,0.5
+20370,5.666527777777778,Laying,Laying,True,duration,84.88333333333334,97.95,Seating,Seating,True,False,True,0.5
+20400,5.674861111111111,Laying,Laying,True,duration,85.65,97.93333333333334,Seating,Seating,True,False,True,0.5
+20430,5.683194444444444,Laying,Laying,True,duration,91.71666666666667,97.75,Seating,Seating,True,False,True,0.5
+20460,5.691527777777778,Laying,Laying,True,duration,94.93333333333334,97.26666666666667,Seating,Seating,True,False,True,0.5
+20490,5.699861111111111,Laying,Laying,True,duration,88.2,97.46666666666667,Seating,Seating,True,False,True,0.5
+20520,5.708194444444445,Laying,Laying,True,duration,85.76666666666667,98.0,Seating,Seating,True,False,True,0.5
+20550,5.716527777777777,Laying,Laying,True,duration,85.65,97.95,Seating,Seating,True,False,True,0.5
+20580,5.724861111111111,Laying,Laying,True,duration,83.66666666666667,97.43333333333334,Seating,Seating,True,False,True,0.5
+20610,5.733194444444444,Laying,Laying,True,duration,85.28333333333333,97.01666666666667,Seating,Seating,True,False,True,0.5
+20640,5.741527777777778,Laying,Laying,True,duration,87.53333333333333,96.75,Seating,Seating,True,False,True,0.5
+20670,5.7498611111111115,Laying,Laying,True,duration,83.36666666666666,96.63333333333334,Seating,Seating,True,False,True,0.5
+20700,5.758194444444444,Laying,Laying,True,duration,79.33333333333333,97.16666666666667,Seating,Seating,True,False,True,0.5
+20730,5.766527777777778,Laying,Laying,True,duration,80.21666666666667,97.4,Seating,Seating,True,False,True,0.5
+20760,5.774861111111111,Laying,Laying,True,duration,84.71666666666667,97.66666666666667,Seating,Seating,True,False,True,0.5
+20790,5.783194444444445,Laying,Laying,True,duration,87.35,98.0,Seating,Seating,True,False,True,0.5
+20820,5.791527777777778,Laying,Laying,True,duration,87.23333333333333,98.0,Seating,Seating,True,False,True,0.5
+20850,5.799861111111111,Laying,Laying,True,duration,86.91666666666667,98.0,Seating,Seating,True,False,True,0.5
+20880,5.808194444444444,Laying,Laying,True,duration,84.7,98.0,Seating,Seating,True,False,True,0.5
+20910,5.816527777777778,Laying,Laying,True,duration,84.21666666666667,98.0,Seating,Seating,True,False,True,0.5
+20940,5.824861111111111,Laying,Laying,True,duration,83.36666666666666,98.0,Seating,Seating,True,False,True,0.5
+20970,5.833194444444445,Laying,Laying,True,duration,82.23333333333333,97.98333333333333,Seating,Seating,True,False,True,0.5
+21000,5.841527777777777,Laying,Laying,True,duration,82.06666666666666,97.61666666666666,Seating,Seating,True,False,True,0.5
+21030,5.849861111111111,Laying,Laying,True,duration,82.81666666666666,97.63333333333334,Seating,Seating,True,False,True,0.5
+21060,5.858194444444444,Laying,Laying,True,duration,83.13333333333334,97.95,Seating,Seating,True,False,True,0.5
+21090,5.866527777777778,Laying,Laying,True,duration,81.08333333333333,97.95,Seating,Seating,True,False,True,0.5
+21120,5.8748611111111115,Laying,Laying,True,duration,82.13333333333334,98.11666666666666,Laying,Seating,True,False,True,0.5
+21150,5.883194444444444,Laying,Laying,True,duration,89.26666666666667,97.95,Seating,Seating,True,False,True,0.5
+21180,5.891527777777778,Laying,Laying,True,duration,92.93333333333334,97.8,Seating,Seating,True,False,True,0.5
+21210,5.899861111111111,Laying,Laying,True,duration,86.9,98.06666666666666,Seating,Seating,True,False,True,0.5
+21240,5.908194444444445,Laying,Laying,True,duration,86.46666666666667,98.1,Seating,Seating,True,False,True,0.5
+21270,5.916527777777778,Laying,Laying,True,duration,89.86666666666666,97.9,Seating,Seating,True,False,True,0.5
+21300,5.924861111111111,Laying,Laying,True,duration,87.13333333333334,97.71666666666667,Seating,Seating,True,False,True,0.5
+21330,5.933194444444444,Laying,Laying,True,duration,84.18333333333334,97.81666666666666,Seating,Seating,True,False,True,0.5
+21360,5.941527777777778,Laying,Laying,True,duration,85.0,98.0,Seating,Seating,True,False,True,0.5
+21390,5.949861111111111,Laying,Laying,True,duration,89.76666666666667,97.88333333333334,Seating,Seating,True,False,True,0.5
+21420,5.958194444444445,Laying,Laying,True,duration,93.3,97.48333333333333,Seating,Seating,True,False,True,0.5
+21450,5.966527777777777,Laying,Laying,True,duration,91.08333333333333,97.31666666666666,Seating,Seating,True,False,True,0.5
+21480,5.974861111111111,Laying,Laying,True,duration,87.48333333333333,97.8,Seating,Seating,True,False,True,0.5
+21510,5.983194444444444,Laying,Laying,True,duration,86.06666666666666,98.0,Seating,Seating,True,False,True,0.5
+21540,5.991527777777778,Laying,Laying,True,duration,84.53333333333333,97.61666666666666,Seating,Seating,True,False,True,0.5
+21570,5.9998611111111115,Laying,Laying,True,duration,84.16666666666667,97.2,Seating,Seating,True,False,True,0.5
+21600,6.008194444444444,Laying,Laying,True,duration,86.25,96.91666666666667,Seating,Seating,True,False,True,0.5
+21630,6.016527777777778,Laying,Laying,True,duration,85.8,96.75,Seating,Seating,True,False,True,0.5
+21660,6.024861111111111,Laying,Laying,True,duration,81.5,96.75,Seating,Seating,True,False,True,0.5
+21690,6.033194444444445,Laying,Laying,True,duration,79.8,97.1,Seating,Seating,True,False,True,0.5
+21720,6.041527777777778,Laying,Laying,True,duration,83.08333333333333,97.53333333333333,Seating,Seating,True,False,True,0.5
+21750,6.049861111111111,Laying,Laying,True,duration,85.25,97.96666666666667,Seating,Seating,True,False,True,0.5
+21780,6.058194444444444,Laying,Laying,True,duration,85.83333333333333,98.11666666666666,Seating,Seating,True,False,True,0.5
+21810,6.066527777777778,Laying,Laying,True,duration,88.55,98.0,Seating,Seating,True,False,True,0.5
+21840,6.074861111111111,Laying,Laying,True,duration,86.66666666666667,98.0,Seating,Seating,True,False,True,0.5
+21870,6.083194444444445,Laying,Laying,True,duration,83.45,98.0,Seating,Seating,True,False,True,0.5
+21900,6.091527777777777,Laying,Laying,True,duration,83.91666666666667,98.0,Seating,Seating,True,False,True,0.5
+21930,6.099861111111111,Laying,Laying,True,duration,82.73333333333333,98.0,Seating,Seating,True,False,True,0.5
+21960,6.108194444444444,Laying,Laying,True,duration,82.05,97.81666666666666,Seating,Seating,True,False,True,0.5
+21990,6.116527777777778,Laying,Laying,True,duration,83.03333333333333,97.61666666666666,Seating,Seating,True,False,True,0.5
+22020,6.1248611111111115,Laying,Laying,True,duration,83.03333333333333,97.8,Seating,Seating,True,False,True,0.5
+22050,6.133194444444444,Laying,Laying,True,duration,82.33333333333333,97.95,Laying,Laying,True,False,True,0.5
+22080,6.141527777777778,Laying,Laying,True,duration,80.16666666666667,97.95,Laying,Laying,True,False,True,0.5
+22110,6.149861111111111,Laying,Laying,True,duration,84.66666666666667,98.2,Laying,Laying,True,False,True,0.5
+22140,6.158194444444445,Laying,Laying,True,duration,93.23333333333333,97.91666666666667,Seating,Seating,True,False,True,0.5
+22170,6.166527777777778,Laying,Laying,True,duration,90.48333333333333,97.81666666666666,Seating,Seating,True,False,True,0.5
+22200,6.174861111111111,Laying,Laying,True,duration,83.85,98.1,Seating,Seating,True,False,True,0.5
+22230,6.183194444444444,Laying,Laying,True,duration,88.5,97.9,Eating with cutlery,Seating,True,False,True,0.5
+22260,6.191527777777778,Laying,Laying,True,duration,90.8,97.76666666666667,Seating,Seating,True,False,True,0.5
+22290,6.199861111111111,Laying,Laying,True,duration,85.3,97.81666666666666,Seating,Seating,True,False,True,0.5
+22320,6.208194444444445,Laying,Laying,True,duration,84.88333333333334,97.95,Seating,Seating,True,False,True,0.5
+22350,6.216527777777777,Laying,Laying,True,duration,85.41666666666667,98.0,Seating,Seating,True,False,True,0.5
+22380,6.224861111111111,Laying,Laying,True,duration,91.31666666666666,97.78333333333333,Seating,Seating,True,False,True,0.5
+22410,6.233194444444444,Laying,Laying,True,duration,94.95,97.2,Seating,Seating,True,False,True,0.5
+22440,6.241527777777778,Laying,Laying,True,duration,88.36666666666666,97.41666666666667,Seating,Seating,True,False,True,0.5
+22470,6.2498611111111115,Laying,Laying,True,duration,85.81666666666666,98.0,Seating,Seating,True,False,True,0.5
+22500,6.258194444444444,Laying,Laying,True,duration,85.83333333333333,98.0,Seating,Seating,True,False,True,0.5
+22530,6.266527777777778,Laying,Laying,True,duration,83.68333333333334,97.46666666666667,Seating,Seating,True,False,True,0.5
+22560,6.274861111111111,Laying,Laying,True,duration,85.26666666666667,97.01666666666667,Seating,Seating,True,False,True,0.5
+22590,6.283194444444445,Laying,Laying,True,duration,87.71666666666667,96.75,Seating,Seating,True,False,True,0.5
+22620,6.291527777777778,Laying,Laying,True,duration,83.73333333333333,96.66666666666667,Seating,Seating,True,False,True,0.5
+22650,6.299861111111111,Laying,Laying,True,duration,79.36666666666666,97.13333333333334,Seating,Seating,True,False,True,0.5
+22680,6.308194444444444,Laying,Laying,True,duration,79.83333333333333,97.35,Seating,Seating,True,False,True,0.5
+22710,6.316527777777778,Laying,Laying,True,duration,84.68333333333334,97.66666666666667,Seating,Seating,True,False,True,0.5
+22740,6.324861111111111,Laying,Laying,True,duration,87.25,97.98333333333333,Seating,Seating,True,False,True,0.5
+22770,6.333194444444445,Laying,Laying,True,duration,86.8,98.0,Seating,Seating,True,False,True,0.5
+22800,6.341527777777777,Laying,Laying,True,duration,87.13333333333334,98.0,Seating,Seating,True,False,True,0.5
+22830,6.349861111111111,Laying,Laying,True,duration,85.03333333333333,98.0,Seating,Seating,True,False,True,0.5
+22860,6.358194444444444,Laying,Laying,True,duration,84.15,98.0,Seating,Seating,True,False,True,0.5
+22890,6.366527777777778,Laying,Laying,True,duration,83.43333333333334,98.0,Seating,Seating,True,False,True,0.5
+22920,6.3748611111111115,Laying,Laying,True,duration,82.25,98.0,Seating,Seating,True,False,True,0.5
+22950,6.383194444444444,Laying,Laying,True,duration,81.93333333333334,97.61666666666666,Seating,Seating,True,False,True,0.5
+22980,6.391527777777778,Laying,Laying,True,duration,82.86666666666666,97.61666666666666,Seating,Seating,True,False,True,0.5
+23010,6.399861111111111,Laying,Laying,True,duration,83.2,97.98333333333333,Seating,Seating,True,False,True,0.5
+23040,6.408194444444445,Laying,Laying,True,duration,81.18333333333334,97.95,Seating,Seating,True,False,True,0.5
+23070,6.416527777777778,Laying,Laying,True,duration,81.76666666666667,98.05,Seating,Seating,True,False,True,0.5
+23100,6.424861111111111,Laying,Laying,True,duration,88.66666666666667,97.95,Seating,Seating,True,False,True,0.5
+23130,6.433194444444444,Laying,Laying,True,duration,93.25,97.83333333333333,Seating,Seating,True,False,True,0.5
+23160,6.441527777777778,Laying,Laying,True,duration,87.5,98.06666666666666,Seating,Seating,True,False,True,0.5
+23190,6.449861111111111,Laying,Laying,True,duration,86.05,98.1,Seating,Seating,True,False,True,0.5
+23220,6.458194444444445,Laying,Laying,True,duration,89.56666666666666,97.9,Seating,Seating,True,False,True,0.5
+23250,6.466527777777777,Laying,Laying,True,duration,87.55,97.71666666666667,Seating,Seating,True,False,True,0.5
+23280,6.474861111111111,Laying,Laying,True,duration,84.31666666666666,97.81666666666666,Seating,Seating,True,False,True,0.5
+23310,6.483194444444444,Laying,Laying,True,duration,84.96666666666667,98.0,Seating,Seating,True,False,True,0.5
+23340,6.491527777777778,Laying,Laying,True,duration,89.33333333333333,97.88333333333334,Seating,Seating,True,False,True,0.5
+23370,6.4998611111111115,Laying,Laying,True,duration,93.11666666666666,97.55,Seating,Seating,True,False,True,0.5
+23400,6.508194444444444,Laying,Laying,True,duration,91.55,97.31666666666666,Seating,Seating,True,False,True,0.5
+23430,6.516527777777778,Laying,Laying,True,duration,87.63333333333334,97.76666666666667,Seating,Seating,True,False,True,0.5
+23460,6.524861111111111,Laying,Laying,True,duration,86.05,98.0,Seating,Seating,True,False,True,0.5
+23490,6.533194444444445,Laying,Laying,True,duration,84.71666666666667,97.61666666666666,Seating,Seating,True,False,True,0.5
+23520,6.541527777777778,Laying,Laying,True,duration,83.95,97.23333333333333,Seating,Seating,True,False,True,0.5
+23550,6.549861111111111,Laying,Laying,True,duration,86.05,96.95,Seating,Seating,True,False,True,0.5
+23580,6.558194444444444,Laying,Laying,True,duration,86.13333333333334,96.75,Seating,Seating,True,False,True,0.5
+23610,6.566527777777778,Laying,Laying,True,duration,81.76666666666667,96.71666666666667,Seating,Seating,True,False,True,0.5
+23640,6.574861111111111,Laying,Laying,True,duration,79.48333333333333,97.13333333333334,Seating,Seating,True,False,True,0.5
+23670,6.583194444444445,Laying,Laying,True,duration,82.53333333333333,97.46666666666667,Seating,Seating,True,False,True,0.5
+23700,6.591527777777777,Laying,Laying,True,duration,85.26666666666667,97.9,Seating,Seating,True,False,True,0.5
+23730,6.599861111111111,Laying,Laying,True,duration,86.15,98.15,Seating,Seating,True,False,True,0.5
+23760,6.608194444444444,Laying,Laying,True,duration,88.58333333333333,98.0,Seating,Seating,True,False,True,0.5
+23790,6.616527777777778,Laying,Laying,True,duration,86.63333333333334,98.0,Seating,Seating,True,False,True,0.5
+23820,6.6248611111111115,Laying,Laying,True,duration,83.61666666666666,98.0,Seating,Seating,True,False,True,0.5
+23850,6.633194444444444,Laying,Laying,True,duration,84.08333333333333,98.0,Seating,Seating,True,False,True,0.5
+23880,6.641527777777778,Laying,Laying,True,duration,82.76666666666667,98.0,Seating,Seating,True,False,True,0.5
+23910,6.649861111111111,Laying,Laying,True,duration,82.11666666666666,97.85,Seating,Seating,True,False,True,0.5
+23940,6.658194444444445,Laying,Laying,True,duration,83.06666666666666,97.61666666666666,Seating,Seating,True,False,True,0.5
+23970,6.666527777777778,Laying,Laying,True,duration,82.98333333333333,97.76666666666667,Seating,Seating,True,False,True,0.5
+24000,6.674861111111111,Laying,Laying,True,duration,82.38333333333334,97.95,Seating,Seating,True,False,True,0.5
+24030,6.683194444444444,Laying,Laying,True,duration,80.25,97.95,Laying,Laying,True,False,True,0.5
+24060,6.691527777777778,Laying,Laying,True,duration,84.18333333333334,98.23333333333333,Laying,Laying,True,False,True,0.5
+24090,6.699861111111111,Laying,Laying,True,duration,92.55,97.9,Laying,Laying,True,False,True,0.5
+24120,6.708194444444445,Laying,Laying,True,duration,90.88333333333334,97.78333333333333,Seating,Seating,True,False,True,0.5
+24150,6.716527777777777,Laying,Laying,True,duration,83.96666666666667,98.11666666666666,Seating,Seating,True,False,True,0.5
+24180,6.724861111111111,Laying,Laying,True,duration,88.43333333333334,97.9,Seating,Seating,True,False,True,0.5
+24210,6.733194444444444,Laying,Laying,True,duration,91.23333333333333,97.76666666666667,Seating,Seating,True,False,True,0.5
+24240,6.741527777777778,Laying,Laying,True,duration,85.4,97.81666666666666,Seating,Seating,True,False,True,0.5
+24270,6.7498611111111115,Laying,Laying,True,duration,84.78333333333333,97.95,Seating,Seating,True,False,True,0.5
+24300,6.758194444444444,Laying,Laying,True,duration,85.28333333333333,98.0,Seating,Seating,True,False,True,0.5
+24330,6.766527777777778,Laying,Laying,True,duration,91.0,97.81666666666666,Seating,Seating,True,False,True,0.5
+24360,6.774861111111111,Laying,Laying,True,duration,94.71666666666667,97.2,Seating,Seating,True,False,True,0.5
+24390,6.783194444444445,Laying,Laying,True,duration,88.58333333333333,97.38333333333334,Seating,Seating,True,False,True,0.5
+24420,6.791527777777778,Laying,Laying,True,duration,86.01666666666667,98.0,Seating,Seating,True,False,True,0.5
+24450,6.799861111111111,Laying,Laying,True,duration,86.0,98.0,Seating,Seating,True,False,True,0.5
+24480,6.808194444444444,Laying,Laying,True,duration,83.73333333333333,97.5,Seating,Seating,True,False,True,0.5
+24510,6.816527777777778,Laying,Laying,True,duration,85.23333333333333,97.05,Seating,Seating,True,False,True,0.5
+24540,6.824861111111111,Laying,Laying,True,duration,87.76666666666667,96.75,Seating,Seating,True,False,True,0.5
+24570,6.833194444444445,Laying,Laying,True,duration,83.95,96.7,Seating,Seating,True,False,True,0.5
+24600,6.841527777777777,Laying,Laying,True,duration,79.5,97.1,Seating,Seating,True,False,True,0.5
+24630,6.849861111111111,Laying,Laying,True,duration,79.75,97.28333333333333,Seating,Seating,True,False,True,0.5
+24660,6.858194444444444,Laying,Laying,True,duration,84.65,97.66666666666667,Seating,Seating,True,False,True,0.5
+24690,6.866527777777778,Laying,Laying,True,duration,86.95,97.98333333333333,Seating,Seating,True,False,True,0.5
+24720,6.8748611111111115,Laying,Laying,True,duration,86.4,98.0,Seating,Seating,True,False,True,0.5
+24750,6.883194444444444,Laying,Laying,True,duration,87.4,98.0,Seating,Seating,True,False,True,0.5
+24780,6.891527777777778,Laying,Laying,True,duration,85.4,98.0,Seating,Seating,True,False,True,0.5
+24810,6.899861111111111,Laying,Laying,True,duration,84.08333333333333,98.0,Seating,Seating,True,False,True,0.5
+24840,6.908194444444445,Laying,Laying,True,duration,83.46666666666667,98.0,Seating,Seating,True,False,True,0.5
+24870,6.916527777777778,Laying,Laying,True,duration,82.25,98.0,Seating,Seating,True,False,True,0.5
+24900,6.924861111111111,Laying,Laying,True,duration,81.83333333333333,97.61666666666666,Seating,Seating,True,False,True,0.5
+24930,6.933194444444444,Laying,Laying,True,duration,82.88333333333334,97.61666666666666,Seating,Seating,True,False,True,0.5
+24960,6.941527777777778,Laying,Laying,True,duration,83.23333333333333,98.0,Seating,Seating,True,False,True,0.5
+24990,6.949861111111111,Laying,Laying,True,duration,81.33333333333333,97.95,Seating,Seating,True,False,True,0.5
+25020,6.958194444444445,Laying,Laying,True,duration,81.33333333333333,98.0,Seating,Seating,True,False,True,0.5
+25050,6.966527777777777,Laying,Laying,True,duration,88.06666666666666,97.95,Seating,Seating,True,False,True,0.5
+25080,6.974861111111111,Laying,Laying,True,duration,93.58333333333333,97.86666666666666,Seating,Seating,True,False,True,0.5
+25110,6.983194444444444,Laying,Laying,True,duration,88.08333333333333,98.06666666666666,Seating,Seating,True,False,True,0.5
+25140,6.991527777777778,Laying,Laying,True,duration,85.65,98.1,Seating,Seating,True,False,True,0.5
+25170,6.9998611111111115,Laying,Laying,True,duration,89.28333333333333,97.9,Seating,Seating,True,False,True,0.5
+25200,7.008194444444444,Laying,Laying,True,duration,87.91666666666667,97.71666666666667,Seating,Seating,True,False,True,0.5
+25230,7.016527777777778,Laying,Laying,True,duration,84.45,97.81666666666666,Seating,Seating,True,False,True,0.5
+25260,7.024861111111111,Laying,Laying,True,duration,85.01666666666667,98.0,Seating,Seating,True,False,True,0.5
+25290,7.033194444444445,Laying,Laying,True,duration,88.9,97.88333333333334,Seating,Seating,True,False,True,0.5
+25320,7.041527777777778,Laying,Laying,True,duration,92.93333333333334,97.58333333333333,Seating,Seating,True,False,True,0.5
+25350,7.049861111111111,Laying,Laying,True,duration,91.98333333333333,97.31666666666666,Seating,Seating,True,False,True,0.5
+25380,7.058194444444444,Laying,Laying,True,duration,87.73333333333333,97.73333333333333,Seating,Seating,True,False,True,0.5
+25410,7.066527777777778,Laying,Laying,True,duration,86.05,98.0,Seating,Seating,True,False,True,0.5
+25440,7.074861111111111,Laying,Laying,True,duration,84.83333333333333,97.65,Seating,Seating,True,False,True,0.5
+25470,7.083194444444445,Laying,Laying,True,duration,83.75,97.26666666666667,Seating,Seating,True,False,True,0.5
+25500,7.091527777777777,Laying,Laying,True,duration,85.93333333333334,96.98333333333333,Seating,Seating,True,False,True,0.5
+25530,7.099861111111111,Laying,Laying,True,duration,86.46666666666667,96.75,Seating,Seating,True,False,True,0.5
+25560,7.108194444444444,Laying,Laying,True,duration,82.05,96.68333333333334,Seating,Seating,True,False,True,0.5
+25590,7.116527777777778,Laying,Laying,True,duration,79.31666666666666,97.23333333333333,Seating,Seating,True,False,True,0.5
+25620,7.1248611111111115,Laying,Laying,True,duration,82.01666666666667,97.4,Seating,Seating,True,False,True,0.5
+25650,7.133194444444444,Laying,Laying,True,duration,85.16666666666667,97.76666666666667,Seating,Seating,True,False,True,0.5
+25680,7.141527777777778,Laying,Laying,True,duration,86.45,98.18333333333334,Seating,Seating,True,False,True,0.5
+25710,7.149861111111111,Laying,Laying,True,duration,88.58333333333333,98.0,Seating,Seating,True,False,True,0.5
+25740,7.158194444444445,Laying,Laying,True,duration,86.6,98.0,Seating,Seating,True,False,True,0.5
+25770,7.166527777777778,Laying,Laying,True,duration,83.78333333333333,98.0,Seating,Seating,True,False,True,0.5
+25800,7.174861111111111,Laying,Laying,True,duration,84.21666666666667,98.0,Seating,Seating,True,False,True,0.5
+25830,7.183194444444444,Laying,Laying,True,duration,82.78333333333333,98.0,Seating,Seating,True,False,True,0.5
+25860,7.191527777777778,Laying,Laying,True,duration,82.18333333333334,97.88333333333334,Seating,Seating,True,False,True,0.5
+25890,7.199861111111111,Laying,Laying,True,duration,83.1,97.61666666666666,Seating,Seating,True,False,True,0.5
+25920,7.208194444444445,Laying,Laying,True,duration,82.9,97.73333333333333,Seating,Seating,True,False,True,0.5
+25950,7.216527777777777,Laying,Laying,True,duration,82.28333333333333,97.95,Seating,Seating,True,False,True,0.5
+25980,7.224861111111111,Laying,Laying,True,duration,80.36666666666666,97.95,Seating,Seating,True,False,True,0.5
+26010,7.233194444444444,Laying,Laying,True,duration,83.86666666666666,98.26666666666667,Seating,Seating,True,False,True,0.5
+26040,7.241527777777778,Laying,Laying,True,duration,91.88333333333334,97.9,Seating,Seating,True,False,True,0.5
+26070,7.2498611111111115,Laying,Laying,True,duration,91.28333333333333,97.75,Seating,Seating,True,False,True,0.5
+26100,7.258194444444444,Laying,Laying,True,duration,84.38333333333334,98.11666666666666,Seating,Seating,True,False,True,0.5
+26130,7.266527777777778,Laying,Laying,True,duration,88.36666666666666,97.9,Seating,Seating,True,False,True,0.5
+26160,7.274861111111111,Laying,Laying,True,duration,91.26666666666667,97.76666666666667,Seating,Seating,True,False,True,0.5
+26190,7.283194444444445,Laying,Laying,True,duration,85.5,97.81666666666666,Seating,Seating,True,False,True,0.5
+26220,7.291527777777778,Laying,Laying,True,duration,84.56666666666666,97.95,Seating,Seating,True,False,True,0.5
+26250,7.299861111111111,Laying,Laying,True,duration,85.15,98.0,Seating,Seating,True,False,True,0.5
+26280,7.308194444444444,Laying,Laying,True,duration,90.86666666666666,97.86666666666666,Seating,Seating,True,False,True,0.5
+26310,7.316527777777778,Laying,Laying,True,duration,94.45,97.2,Seating,Seating,True,False,True,0.5
+26340,7.324861111111111,Laying,Laying,True,duration,88.81666666666666,97.33333333333333,Seating,Seating,True,False,True,0.5
+26370,7.333194444444445,Laying,Laying,True,duration,86.25,98.0,Seating,Seating,True,False,True,0.5
+26400,7.341527777777777,Laying,Laying,True,duration,86.16666666666667,98.0,Seating,Seating,True,False,True,0.5
+26430,7.349861111111111,Laying,Laying,True,duration,83.81666666666666,97.53333333333333,Seating,Seating,True,False,True,0.5
+26460,7.358194444444444,Laying,Laying,True,duration,85.2,97.08333333333333,Seating,Seating,True,False,True,0.5
+26490,7.366527777777778,Laying,Laying,True,duration,87.63333333333334,96.76666666666667,Seating,Seating,True,False,True,0.5
+26520,7.3748611111111115,Laying,Laying,True,duration,84.11666666666666,96.7,Seating,Seating,True,False,True,0.5
+26550,7.383194444444444,Laying,Laying,True,duration,79.78333333333333,97.05,Seating,Seating,True,False,True,0.5
+26580,7.391527777777778,Laying,Laying,True,duration,79.71666666666667,97.25,Seating,Seating,True,False,True,0.5
+26610,7.399861111111111,Laying,Laying,True,duration,84.6,97.66666666666667,Seating,Seating,True,False,True,0.5
+26640,7.408194444444445,Laying,Laying,True,duration,86.68333333333334,97.98333333333333,Seating,Seating,True,False,True,0.5
+26670,7.416527777777778,Laying,Laying,True,duration,86.03333333333333,98.0,Seating,Seating,True,False,True,0.5
+26700,7.424861111111111,Laying,Laying,True,duration,87.63333333333334,98.0,Seating,Seating,True,False,True,0.5
+26730,7.433194444444444,Laying,Laying,True,duration,85.75,98.0,Seating,Seating,True,False,True,0.5
+26760,7.441527777777778,Laying,Laying,True,duration,84.01666666666667,98.0,Seating,Seating,True,False,True,0.5
+26790,7.449861111111111,Laying,Laying,True,duration,83.53333333333333,98.0,Seating,Seating,True,False,True,0.5
+26820,7.458194444444445,Laying,Laying,True,duration,82.25,98.0,Seating,Seating,True,False,True,0.5
+26850,7.466527777777777,Laying,Laying,True,duration,81.8,97.65,Seating,Seating,True,False,True,0.5
+26880,7.474861111111111,Laying,Laying,True,duration,82.85,97.61666666666666,Seating,Seating,True,False,True,0.5
+26910,7.483194444444444,Laying,Laying,True,duration,83.2,97.96666666666667,Seating,Seating,True,False,True,0.5
+26940,7.491527777777778,Laying,Laying,True,duration,81.53333333333333,97.95,Seating,Seating,True,False,True,0.5
+26970,7.4998611111111115,Laying,Laying,True,duration,80.88333333333334,97.96666666666667,Seating,Seating,True,False,True,0.5
+27000,7.508194444444444,Laying,Laying,True,duration,87.5,98.0,Seating,Seating,True,False,True,0.5
+27030,7.516527777777778,Laying,Laying,True,duration,93.9,97.9,Seating,Seating,True,False,True,0.5
+27060,7.524861111111111,Laying,Laying,True,duration,88.55,98.01666666666667,Seating,Seating,True,False,True,0.5
+27090,7.533194444444445,Laying,Laying,True,duration,85.23333333333333,98.1,Seating,Seating,True,False,True,0.5
+27120,7.541527777777778,Laying,Laying,True,duration,89.08333333333333,97.9,Seating,Seating,True,False,True,0.5
+27150,7.549861111111111,Laying,Laying,True,duration,88.36666666666666,97.73333333333333,Seating,Seating,True,False,True,0.5
+27180,7.558194444444444,Laying,Laying,True,duration,84.58333333333333,97.81666666666666,Seating,Seating,True,False,True,0.5
+27210,7.566527777777778,Laying,Laying,True,duration,85.01666666666667,97.98333333333333,Seating,Seating,True,False,True,0.5
+27240,7.574861111111111,Laying,Laying,True,duration,88.46666666666667,97.88333333333334,Seating,Seating,True,False,True,0.5
+27270,7.583194444444445,Laying,Laying,True,duration,92.73333333333333,97.61666666666666,Seating,Seating,True,False,True,0.5
+27300,7.591527777777777,Laying,Laying,True,duration,92.43333333333334,97.31666666666666,Seating,Seating,True,False,True,0.5
+27330,7.599861111111111,Laying,Laying,True,duration,87.83333333333333,97.7,Seating,Seating,True,False,True,0.5
+27360,7.608194444444444,Laying,Laying,True,duration,85.98333333333333,98.0,Seating,Seating,True,False,True,0.5
+27390,7.616527777777778,Laying,Laying,True,duration,84.93333333333334,97.68333333333334,Seating,Seating,True,False,True,0.5
+27420,7.6248611111111115,Laying,Laying,True,duration,83.66666666666667,97.3,Seating,Seating,True,False,True,0.5
+27450,7.633194444444444,Laying,Laying,True,duration,85.83333333333333,97.01666666666667,Seating,Seating,True,False,True,0.5
+27480,7.641527777777778,Laying,Laying,True,duration,86.73333333333333,96.75,Seating,Seating,True,False,True,0.5
+27510,7.649861111111111,Laying,Laying,True,duration,82.23333333333333,96.65,Seating,Seating,True,False,True,0.5
+27540,7.658194444444445,Laying,Laying,True,duration,79.2,97.3,Seating,Seating,True,False,True,0.5
+27570,7.666527777777778,Laying,Laying,True,duration,81.71666666666667,97.4,Seating,Seating,True,False,True,0.5
+27600,7.674861111111111,Laying,Laying,True,duration,85.03333333333333,97.66666666666667,Seating,Seating,True,False,True,0.5
+27630,7.683194444444444,Laying,Laying,True,duration,86.63333333333334,98.15,Washing Teeth,Seating,True,False,True,0.5
+27660,7.691527777777778,Laying,Laying,True,duration,88.53333333333333,98.0,Seating,Seating,True,False,True,0.5
+27690,7.699861111111111,Laying,Laying,True,duration,86.63333333333334,98.0,Seating,Seating,True,False,True,0.5
+27720,7.708194444444445,Laying,Laying,True,duration,83.98333333333333,98.0,Seating,Seating,True,False,True,0.5
+27750,7.716527777777777,Laying,Laying,True,duration,84.28333333333333,98.0,Seating,Seating,True,False,True,0.5
+27780,7.724861111111111,Laying,Laying,True,duration,82.78333333333333,98.0,Seating,Seating,True,False,True,0.5
+27810,7.733194444444444,Laying,Laying,True,duration,82.26666666666667,97.91666666666667,Seating,Seating,True,False,True,0.5
+27840,7.741527777777778,Laying,Laying,True,duration,83.06666666666666,97.61666666666666,Seating,Seating,True,False,True,0.5
+27870,7.7498611111111115,Laying,Laying,True,duration,82.75,97.7,Seating,Seating,True,False,True,0.5
+27900,7.758194444444444,Laying,Laying,True,duration,82.25,97.95,Seating,Seating,True,False,True,0.5
+27930,7.766527777777778,Laying,Laying,True,duration,80.53333333333333,97.95,Seating,Seating,True,False,True,0.5
+27960,7.774861111111111,Laying,Laying,True,duration,83.58333333333333,98.25,Seating,Seating,True,False,True,0.5
+27990,7.783194444444445,Laying,Laying,True,duration,91.35,97.93333333333334,Seating,Seating,True,False,True,0.5
+28020,7.791527777777778,Laying,Laying,True,duration,91.68333333333334,97.75,Seating,Seating,True,False,True,0.5
+28050,7.799861111111111,Laying,Laying,True,duration,84.81666666666666,98.08333333333333,Seating,Seating,True,False,True,0.5
+28080,7.808194444444444,Laying,Laying,True,duration,88.13333333333334,97.95,Seating,Seating,True,False,True,0.5
+28110,7.816527777777778,Laying,Laying,True,duration,91.13333333333334,97.76666666666667,Seating,Seating,True,False,True,0.5
+28140,7.824861111111111,Laying,Laying,True,duration,85.65,97.78333333333333,Seating,Seating,True,False,True,0.5
+28170,7.833194444444445,Laying,Laying,True,duration,84.23333333333333,97.95,Seating,Seating,True,False,True,0.5
+28200,7.841527777777777,Laying,Laying,True,duration,85.11666666666666,98.0,Seating,Seating,True,False,True,0.5
+28230,7.849861111111111,Laying,Laying,True,duration,90.85,97.88333333333334,Seating,Seating,True,False,True,0.5
+28260,7.858194444444444,Laying,Laying,True,duration,94.18333333333334,97.2,Seating,Seating,True,False,True,0.5
+28290,7.866527777777778,Laying,Laying,True,duration,89.21666666666667,97.31666666666666,Seating,Seating,True,False,True,0.5
+28320,7.8748611111111115,Laying,Laying,True,duration,86.5,98.0,Seating,Seating,True,False,True,0.5
+28350,7.883194444444444,Laying,Laying,True,duration,86.18333333333334,98.0,Seating,Seating,True,False,True,0.5
+28380,7.891527777777778,Laying,Laying,True,duration,83.96666666666667,97.56666666666666,Seating,Seating,True,False,True,0.5
+28410,7.899861111111111,Laying,Laying,True,duration,85.16666666666667,97.11666666666666,Seating,Seating,True,False,True,0.5
+28440,7.908194444444445,Laying,Laying,True,duration,87.26666666666667,96.8,Seating,Seating,True,False,True,0.5
+28470,7.916527777777778,Laying,Laying,True,duration,84.28333333333333,96.7,Seating,Seating,True,False,True,0.5
+28500,7.924861111111111,Laying,Laying,True,duration,80.21666666666667,96.98333333333333,Seating,Seating,True,False,True,0.5
+28530,7.933194444444444,Laying,Laying,True,duration,79.68333333333334,97.21666666666667,Laying,Laying,True,False,True,0.5
+28560,7.941527777777778,Laying,Laying,True,duration,84.46666666666667,97.66666666666667,Laying,Laying,True,False,True,0.5
+28590,7.949861111111111,Laying,Laying,True,duration,86.45,97.98333333333333,Laying,Laying,True,False,True,0.5
+28620,7.958194444444445,Laying,Laying,True,duration,85.76666666666667,98.0,Seating,Seating,True,False,True,0.5
+28650,7.966527777777777,Laying,Laying,True,duration,87.85,98.0,Seating,Seating,True,False,True,0.5
+28680,7.974861111111111,Laying,Laying,True,duration,86.08333333333333,98.0,Seating,Seating,True,False,True,0.5
+28710,7.983194444444444,Laying,Laying,True,duration,83.86666666666666,98.0,Seating,Seating,True,False,True,0.5
+28740,7.991527777777778,Laying,Laying,True,duration,83.58333333333333,98.0,Seating,Seating,True,False,True,0.5
+28770,7.9998611111111115,Laying,Laying,True,duration,82.31666666666666,98.0,Seating,Seating,True,False,True,0.5
+28800,8.008194444444445,Laying,Laying,True,duration,81.78333333333333,97.68333333333334,Seating,Seating,True,False,True,0.5
+28830,8.016527777777778,Laying,Laying,True,duration,82.81666666666666,97.61666666666666,Seating,Seating,True,False,True,0.5
+28860,8.024861111111111,Laying,Laying,True,duration,83.16666666666667,97.93333333333334,Seating,Seating,True,False,True,0.5
+28890,8.033194444444444,Laying,Laying,True,duration,81.73333333333333,97.95,Seating,Seating,True,False,True,0.5
+28920,8.041527777777778,Laying,Laying,True,duration,80.45,97.95,Seating,Seating,True,False,True,0.5
+28950,8.049861111111111,Laying,Laying,True,duration,86.96666666666667,98.06666666666666,Seating,Seating,True,False,True,0.5
+28980,8.058194444444444,Laying,Laying,True,duration,94.18333333333334,97.91666666666667,Seating,Seating,True,False,True,0.5
+29010,8.066527777777777,Laying,Laying,True,duration,88.95,97.95,Seating,Seating,True,False,True,0.5
+29040,8.074861111111112,Laying,Laying,True,duration,84.75,98.1,Seating,Seating,True,False,True,0.5
+29070,8.083194444444445,Laying,Laying,True,duration,88.91666666666667,97.9,Seating,Seating,True,False,True,0.5
+29100,8.091527777777777,Laying,Laying,True,duration,88.93333333333334,97.76666666666667,Seating,Seating,True,False,True,0.5
+29130,8.09986111111111,Laying,Laying,True,duration,84.75,97.81666666666666,Seating,Seating,True,False,True,0.5
+29160,8.108194444444445,Laying,Laying,True,duration,84.98333333333333,97.95,Seating,Seating,True,False,True,0.5
+29190,8.116527777777778,Laying,Laying,True,duration,87.81666666666666,97.88333333333334,Seating,Seating,True,False,True,0.5
+29220,8.12486111111111,Laying,Laying,True,duration,92.53333333333333,97.65,Seating,Seating,True,False,True,0.5
+29250,8.133194444444445,Laying,Laying,True,duration,93.08333333333333,97.31666666666666,Seating,Seating,True,False,True,0.5
+29280,8.141527777777778,Laying,Laying,True,duration,87.93333333333334,97.66666666666667,Seating,Seating,True,False,True,0.5
+29310,8.149861111111111,Laying,Laying,True,duration,85.88333333333334,98.0,Seating,Seating,True,False,True,0.5
+29340,8.158194444444444,Laying,Laying,True,duration,85.05,97.68333333333334,Seating,Seating,True,False,True,0.5
+29370,8.166527777777778,Laying,Laying,True,duration,83.66666666666667,97.33333333333333,Seating,Seating,True,False,True,0.5
+29400,8.174861111111111,Laying,Laying,True,duration,85.66666666666667,97.08333333333333,Seating,Seating,True,False,True,0.5
+29430,8.183194444444444,Laying,Laying,True,duration,86.93333333333334,96.75,Seating,Seating,True,False,True,0.5
+29460,8.191527777777777,Laying,Laying,True,duration,82.41666666666667,96.61666666666666,Seating,Seating,True,False,True,0.5
+29490,8.199861111111112,Laying,Laying,True,duration,79.23333333333333,97.26666666666667,Seating,Seating,True,False,True,0.5
+29520,8.208194444444445,Laying,Laying,True,duration,81.48333333333333,97.43333333333334,Seating,Seating,True,False,True,0.5
+29550,8.216527777777777,Laying,Laying,True,duration,84.85,97.66666666666667,Seating,Seating,True,False,True,0.5
+29580,8.22486111111111,Laying,Laying,True,duration,86.8,98.08333333333333,Seating,Seating,True,False,True,0.5
+29610,8.233194444444445,Laying,Laying,True,duration,88.33333333333333,98.0,Seating,Seating,True,False,True,0.5
+29640,8.241527777777778,Laying,Laying,True,duration,86.7,98.0,Seating,Seating,True,False,True,0.5
+29670,8.24986111111111,Laying,Laying,True,duration,84.2,98.0,Seating,Seating,True,False,True,0.5
+29700,8.258194444444445,Laying,Laying,True,duration,84.31666666666666,98.0,Seating,Seating,True,False,True,0.5
+29730,8.266527777777778,Laying,Laying,True,duration,82.83333333333333,98.0,Seating,Seating,True,False,True,0.5
+29760,8.274861111111111,Laying,Laying,True,duration,82.25,97.95,Seating,Seating,True,False,True,0.5
+29790,8.283194444444444,Laying,Laying,True,duration,82.91666666666667,97.61666666666666,Seating,Seating,True,False,True,0.5
+29820,8.291527777777778,Laying,Laying,True,duration,82.7,97.66666666666667,Seating,Seating,True,False,True,0.5
+29850,8.299861111111111,Laying,Laying,True,duration,82.36666666666666,97.95,Seating,Seating,True,False,True,0.5
+29880,8.308194444444444,Laying,Laying,True,duration,80.7,97.95,Seating,Seating,True,False,True,0.5
+29910,8.316527777777777,Laying,Laying,True,duration,83.26666666666667,98.21666666666667,Seating,Seating,True,False,True,0.5
+29940,8.324861111111112,Laying,Laying,True,duration,90.86666666666666,97.95,Seating,Seating,True,False,True,0.5
+29970,8.333194444444445,Laying,Laying,True,duration,91.98333333333333,97.75,Seating,Seating,True,False,True,0.5
+30000,8.341527777777777,Laying,Laying,True,duration,85.3,98.06666666666666,Seating,Seating,True,False,True,0.5
+30030,8.34986111111111,Laying,Laying,True,duration,87.83333333333333,97.98333333333333,Seating,Seating,True,False,True,0.5
+30060,8.358194444444445,Laying,Laying,True,duration,90.8,97.83333333333333,Seating,Seating,True,False,True,0.5
+30090,8.366527777777778,Laying,Laying,True,duration,85.91666666666667,97.78333333333333,Seating,Seating,True,False,True,0.5
+30120,8.37486111111111,Laying,Laying,True,duration,84.05,97.88333333333334,Seating,Seating,True,False,True,0.5
+30150,8.383194444444445,Laying,Laying,True,duration,85.13333333333334,98.0,Seating,Seating,True,False,True,0.5
+30180,8.391527777777778,Laying,Laying,True,duration,90.76666666666667,97.88333333333334,Seating,Seating,True,False,True,0.5
+30210,8.399861111111111,Laying,Laying,True,duration,93.85,97.21666666666667,Washing Hands,Seating,True,False,True,0.5
+30240,8.408194444444444,Laying,Laying,True,duration,89.68333333333334,97.31666666666666,Seating,Seating,True,False,True,0.5
+30270,8.416527777777778,Laying,Laying,True,duration,86.81666666666666,97.98333333333333,Seating,Seating,True,False,True,0.5
+30300,8.424861111111111,Laying,Laying,True,duration,86.15,98.0,Seating,Seating,True,False,True,0.5
+30330,8.433194444444444,Laying,Laying,True,duration,84.1,97.6,Seating,Seating,True,False,True,0.5
+30360,8.441527777777777,Laying,Laying,True,duration,85.06666666666666,97.15,Seating,Seating,True,False,True,0.5
+30390,8.449861111111112,Laying,Laying,True,duration,86.9,96.83333333333333,Seating,Seating,True,False,True,0.5
+30420,8.458194444444445,Laying,Laying,True,duration,84.51666666666667,96.7,Seating,Seating,True,False,True,0.5
+30450,8.466527777777777,Laying,Laying,True,duration,80.65,96.91666666666667,Seating,Seating,True,False,True,0.5
+30480,8.47486111111111,Laying,Laying,True,duration,79.7,97.18333333333334,Seating,Seating,True,False,True,0.5
+30510,8.483194444444445,Laying,Laying,True,duration,84.21666666666667,97.65,Seating,Seating,True,False,True,0.5
+30540,8.491527777777778,Laying,Laying,True,duration,86.16666666666667,97.98333333333333,Seating,Seating,True,False,True,0.5
+30570,8.49986111111111,Laying,Laying,True,duration,85.65,98.01666666666667,Seating,Seating,True,False,True,0.5
+30600,8.508194444444445,Laying,Laying,True,duration,88.08333333333333,98.0,Seating,Seating,True,False,True,0.5
+30630,8.516527777777778,Laying,Laying,True,duration,86.38333333333334,98.0,Seating,Seating,True,False,True,0.5
+30660,8.524861111111111,Laying,Laying,True,duration,83.66666666666667,98.0,Seating,Seating,True,False,True,0.5
+30690,8.533194444444444,Laying,Laying,True,duration,83.55,98.0,Seating,Seating,True,False,True,0.5
+30720,8.541527777777778,Laying,Laying,True,duration,82.43333333333334,98.0,Seating,Seating,True,False,True,0.5
+30750,8.549861111111111,Laying,Laying,True,duration,81.85,97.71666666666667,Laying,Seating,True,False,True,0.5
+30780,8.558194444444444,Laying,Laying,True,duration,82.86666666666666,97.61666666666666,Seating,Seating,True,False,True,0.5
+30810,8.566527777777777,Laying,Laying,True,duration,83.13333333333334,97.9,Seating,Laying,True,False,True,0.5
+30840,8.574861111111112,Laying,Laying,True,duration,81.83333333333333,97.95,Laying,Seating,True,False,True,0.5
+30870,8.583194444444445,Laying,Laying,True,duration,80.16666666666667,97.95,Laying,Seating,True,False,True,0.5
+30900,8.591527777777777,Laying,Laying,True,duration,86.46666666666667,98.1,Seating,Seating,True,False,True,0.5
+30930,8.59986111111111,Laying,Laying,True,duration,94.26666666666667,97.91666666666667,Seating,Seating,True,False,True,0.5
+30960,8.608194444444445,Laying,Laying,True,duration,89.3,97.91666666666667,Seating,Seating,True,False,True,0.5
+30990,8.616527777777778,Laying,Laying,True,duration,84.35,98.1,Laying,Seating,True,False,True,0.5
+31020,8.62486111111111,Laying,Laying,True,duration,88.73333333333333,97.9,Seating,Seating,True,False,True,0.5
+31050,8.633194444444445,Laying,Laying,True,duration,89.46666666666667,97.76666666666667,Seating,Seating,True,False,True,0.5
+31080,8.641527777777778,Laying,Laying,True,duration,84.95,97.81666666666666,Seating,Seating,True,False,True,0.5
+31110,8.649861111111111,Laying,Laying,True,duration,84.95,97.95,Seating,Seating,True,False,True,0.5
+31140,8.658194444444444,Laying,Laying,True,duration,86.85,97.88333333333334,Seating,Seating,True,False,True,0.5
+31170,8.666527777777778,Laying,Laying,True,duration,92.33333333333333,97.68333333333334,Seating,Seating,True,False,True,0.5
+31200,8.674861111111111,Laying,Laying,True,duration,94.01666666666667,97.31666666666666,Seating,Seating,True,False,True,0.5
+31230,8.683194444444444,Laying,Laying,True,duration,88.03333333333333,97.61666666666666,Seating,Seating,True,False,True,0.5
+31260,8.691527777777777,Laying,Laying,True,duration,85.81666666666666,98.0,Seating,Seating,True,False,True,0.5
+31290,8.699861111111112,Laying,Laying,True,duration,85.18333333333334,97.76666666666667,Seating,Seating,True,False,True,0.5
+31320,8.708194444444445,Laying,Laying,True,duration,83.66666666666667,97.36666666666666,Seating,Seating,True,False,True,0.5
+31350,8.716527777777777,Laying,Laying,True,duration,85.46666666666667,97.05,Seating,Seating,True,False,True,0.5
+31380,8.72486111111111,Laying,Laying,True,duration,87.13333333333334,96.75,Seating,Seating,True,False,True,0.5
+31410,8.733194444444445,Laying,Laying,True,duration,82.71666666666667,96.65,Laying,Laying,True,False,True,0.5
+31440,8.741527777777778,Laying,Laying,True,duration,79.26666666666667,97.23333333333333,Laying,Laying,True,False,True,0.5
+31470,8.74986111111111,Laying,Laying,True,duration,81.13333333333334,97.41666666666667,Laying,Laying,True,False,True,0.5
+31500,8.758194444444445,Laying,Laying,True,duration,84.78333333333333,97.66666666666667,Laying,Laying,True,False,True,0.5
+31530,8.766527777777778,Laying,Laying,True,duration,87.0,98.03333333333333,Laying,Laying,True,False,True,0.5
+31560,8.774861111111111,Laying,Laying,True,duration,88.0,98.0,Laying,Laying,True,False,True,0.5
+31590,8.783194444444444,Laying,Laying,True,duration,86.75,98.0,Laying,Laying,True,False,True,0.5
+31620,8.791527777777778,Laying,Laying,True,duration,84.31666666666666,98.0,Laying,Laying,True,False,True,0.5
+31650,8.799861111111111,Laying,Laying,True,duration,84.3,98.0,Seating,Laying,True,False,True,0.5
+31680,8.808194444444444,Laying,Laying,True,duration,83.05,98.0,Laying,Laying,True,False,True,0.5
+31710,8.816527777777777,Laying,Laying,True,duration,82.2,97.95,Laying,Laying,True,False,True,0.5
+31740,8.824861111111112,Laying,Laying,True,duration,82.6,97.61666666666666,Laying,Laying,True,False,True,0.5
+31770,8.833194444444445,Laying,Laying,True,duration,82.73333333333333,97.66666666666667,Laying,Laying,True,False,True,0.5
+31800,8.841527777777777,Laying,Laying,True,duration,82.65,97.95,Seating,Laying,True,False,True,0.5
+31830,8.84986111111111,Laying,Laying,True,duration,80.86666666666666,97.95,Laying,Laying,True,False,True,0.5
+31860,8.858194444444445,Laying,Laying,True,duration,82.9,98.18333333333334,Laying,Laying,True,False,True,0.5
+31890,8.866527777777778,Laying,Laying,True,duration,90.4,97.95,Seating,Laying,True,False,True,0.5
+31920,8.87486111111111,Laying,Laying,True,duration,92.28333333333333,97.75,Washing Teeth,Seating,True,False,True,0.5
+31950,8.883194444444445,Laying,Laying,True,duration,85.76666666666667,98.06666666666666,Seating,Seating,True,False,True,0.5
+31980,8.891527777777778,Laying,Laying,True,duration,87.43333333333334,98.01666666666667,Seating,Seating,True,False,True,0.5
+32010,8.899861111111111,Laying,Laying,True,duration,90.46666666666667,97.9,Seating,Seating,True,False,True,0.5
+32040,8.908194444444444,Laying,Laying,True,duration,86.28333333333333,97.78333333333333,Seating,Seating,True,False,True,0.5
+32070,8.916527777777778,Laying,Laying,True,duration,83.96666666666667,97.81666666666666,Seating,Seating,True,False,True,0.5
+32100,8.924861111111111,Laying,Laying,True,duration,85.1,98.0,Seating,Seating,True,False,True,0.5
+32130,8.933194444444444,Laying,Laying,True,duration,90.58333333333333,97.88333333333334,Seating,Seating,True,False,True,0.5
+32160,8.941527777777777,Laying,Laying,True,duration,93.6,97.31666666666666,Seating,Seating,True,False,True,0.5
+32190,8.949861111111112,Laying,Laying,True,duration,90.15,97.31666666666666,Seating,Seating,True,False,True,0.5
+32220,8.958194444444445,Laying,Laying,True,duration,87.1,97.88333333333334,Seating,Seating,True,False,True,0.5
+32250,8.966527777777777,Laying,Laying,True,duration,86.11666666666666,98.0,Seating,Seating,True,False,True,0.5
+32280,8.97486111111111,Laying,Laying,True,duration,84.23333333333333,97.63333333333334,Seating,Seating,True,False,True,0.5
+32310,8.983194444444445,Laying,Laying,True,duration,84.8,97.16666666666667,Seating,Seating,True,False,True,0.5
+32340,8.991527777777778,Laying,Laying,True,duration,86.65,96.85,Seating,Seating,True,False,True,0.5
+32370,8.99986111111111,Laying,Laying,True,duration,84.91666666666667,96.71666666666667,Seating,Seating,True,False,True,0.5
+32400,9.008194444444445,Laying,Laying,True,duration,80.96666666666667,96.86666666666666,Seating,Seating,True,False,True,0.5
+32430,9.016527777777778,Laying,Laying,True,duration,79.78333333333333,97.15,Seating,Seating,True,False,True,0.5
+32460,9.024861111111111,Laying,Laying,True,duration,83.93333333333334,97.61666666666666,Seating,Seating,True,False,True,0.5
+32490,9.033194444444444,Laying,Laying,True,duration,85.81666666666666,97.98333333333333,Seating,Seating,True,False,True,0.5
+32520,9.041527777777778,Laying,Laying,True,duration,85.6,98.05,Seating,Seating,True,False,True,0.5
+32550,9.049861111111111,Laying,Laying,True,duration,88.31666666666666,98.0,Seating,Seating,True,False,True,0.5
+32580,9.058194444444444,Laying,Laying,True,duration,86.61666666666666,98.0,Seating,Seating,True,False,True,0.5
+32610,9.066527777777777,Laying,Laying,True,duration,83.46666666666667,98.0,Seating,Seating,True,False,True,0.5
+32640,9.074861111111112,Laying,Laying,True,duration,83.55,98.0,Seating,Seating,True,False,True,0.5
+32670,9.083194444444445,Laying,Laying,True,duration,82.56666666666666,98.0,Seating,Seating,True,False,True,0.5
+32700,9.091527777777777,Laying,Laying,True,duration,81.91666666666667,97.75,Seating,Seating,True,False,True,0.5
+32730,9.09986111111111,Laying,Laying,True,duration,82.93333333333334,97.61666666666666,Seating,Seating,True,False,True,0.5
+32760,9.108194444444445,Laying,Laying,True,duration,83.1,97.86666666666666,Seating,Seating,True,False,True,0.5
+32790,9.116527777777778,Laying,Laying,True,duration,82.0,97.95,Seating,Seating,True,False,True,0.5
+32820,9.12486111111111,Laying,Laying,True,duration,80.08333333333333,97.95,Seating,Seating,True,False,True,0.5
+32850,9.133194444444445,Laying,Laying,True,duration,85.86666666666666,98.13333333333334,Seating,Seating,True,False,True,0.5
+32880,9.141527777777778,Laying,Laying,True,duration,94.11666666666666,97.91666666666667,Seating,Seating,True,False,True,0.5
+32910,9.149861111111111,Laying,Laying,True,duration,89.68333333333334,97.88333333333334,Seating,Seating,True,False,True,0.5
+32940,9.158194444444444,Laying,Laying,True,duration,84.05,98.1,Seating,Seating,True,False,True,0.5
+32970,9.166527777777778,Laying,Laying,True,duration,88.63333333333334,97.9,Seating,Seating,True,False,True,0.5
+33000,9.174861111111111,Laying,Laying,True,duration,89.93333333333334,97.76666666666667,Seating,Seating,True,False,True,0.5
+33030,9.183194444444444,Laying,Laying,True,duration,85.1,97.81666666666666,Seating,Seating,True,False,True,0.5
+33060,9.191527777777777,Laying,Laying,True,duration,84.91666666666667,97.95,Seating,Seating,True,False,True,0.5
+33090,9.199861111111112,Laying,Laying,True,duration,86.03333333333333,97.88333333333334,Seating,Seating,True,False,True,0.5
+33120,9.208194444444445,Laying,Laying,True,duration,92.05,97.71666666666667,Seating,Seating,True,False,True,0.5
+33150,9.216527777777777,Laying,Laying,True,duration,94.7,97.31666666666666,Seating,Seating,True,False,True,0.5
+33180,9.22486111111111,Laying,Laying,True,duration,88.11666666666666,97.55,Seating,Seating,True,False,True,0.5
+33210,9.233194444444445,Laying,Laying,True,duration,85.78333333333333,98.0,Seating,Seating,True,False,True,0.5
+33240,9.241527777777778,Laying,Laying,True,duration,85.41666666666667,97.86666666666666,Seating,Seating,True,False,True,0.5
+33270,9.24986111111111,Laying,Laying,True,duration,83.66666666666667,97.4,Seating,Seating,True,False,True,0.5
+33300,9.258194444444445,Laying,Laying,True,duration,85.33333333333333,97.01666666666667,Seating,Seating,True,False,True,0.5
+33330,9.266527777777778,Laying,Laying,True,duration,87.33333333333333,96.75,Seating,Seating,True,False,True,0.5
+33360,9.274861111111111,Laying,Laying,True,duration,83.0,96.66666666666667,Seating,Seating,True,False,True,0.5
+33390,9.283194444444444,Laying,Laying,True,duration,79.3,97.2,Seating,Seating,True,False,True,0.5
+33420,9.291527777777778,Laying,Laying,True,duration,80.71666666666667,97.4,Seating,Seating,True,False,True,0.5
+33450,9.299861111111111,Laying,Laying,True,duration,84.75,97.66666666666667,Seating,Seating,True,False,True,0.5
+33480,9.308194444444444,Laying,Laying,True,duration,87.2,98.0,Seating,Seating,True,False,True,0.5
+33510,9.316527777777777,Laying,Laying,True,duration,87.63333333333334,98.0,Seating,Seating,True,False,True,0.5
+33540,9.324861111111112,Laying,Laying,True,duration,86.81666666666666,98.0,Seating,Seating,True,False,True,0.5
+33570,9.333194444444445,Laying,Laying,True,duration,84.43333333333334,98.0,Seating,Seating,True,False,True,0.5
+33600,9.341527777777777,Laying,Laying,True,duration,84.26666666666667,98.0,Seating,Seating,True,False,True,0.5
+33630,9.34986111111111,Laying,Laying,True,duration,83.26666666666667,98.0,Seating,Seating,True,False,True,0.5
+33660,9.358194444444445,Laying,Laying,True,duration,82.2,97.95,Seating,Seating,True,False,True,0.5
+33690,9.366527777777778,Laying,Laying,True,duration,82.3,97.61666666666666,Seating,Seating,True,False,True,0.5
+33720,9.37486111111111,Laying,Laying,True,duration,82.78333333333333,97.66666666666667,Seating,Seating,True,False,True,0.5
+33750,9.383194444444445,Laying,Laying,True,duration,82.93333333333334,97.95,Seating,Seating,True,False,True,0.5
+33780,9.391527777777778,Laying,Laying,True,duration,80.98333333333333,97.95,Seating,Seating,True,False,True,0.5
+33810,9.399861111111111,Laying,Laying,True,duration,82.51666666666667,98.15,Seating,Seating,True,False,True,0.5
+33840,9.408194444444444,Laying,Laying,True,duration,89.86666666666666,97.95,Seating,Seating,True,False,True,0.5
+33870,9.416527777777778,Laying,Laying,True,duration,92.6,97.76666666666667,Seating,Seating,True,False,True,0.5
+33900,9.424861111111111,Laying,Laying,True,duration,86.3,98.06666666666666,Seating,Seating,True,False,True,0.5
+33930,9.433194444444444,Laying,Laying,True,duration,86.95,98.06666666666666,Seating,Seating,True,False,True,0.5
+33960,9.441527777777777,Laying,Laying,True,duration,90.16666666666667,97.9,Seating,Seating,True,False,True,0.5
+33990,9.449861111111112,Laying,Laying,True,duration,86.71666666666667,97.75,Seating,Seating,True,False,True,0.5
+34020,9.458194444444445,Laying,Laying,True,duration,84.05,97.81666666666666,Seating,Seating,True,False,True,0.5
+34050,9.466527777777777,Laying,Laying,True,duration,85.03333333333333,98.0,Seating,Seating,True,False,True,0.5
+34080,9.47486111111111,Laying,Laying,True,duration,90.2,97.88333333333334,Seating,Seating,True,False,True,0.5
+34110,9.483194444444445,Laying,Laying,True,duration,93.45,97.41666666666667,Seating,Seating,True,False,True,0.5
+34140,9.491527777777778,Laying,Laying,True,duration,90.61666666666666,97.31666666666666,Seating,Seating,True,False,True,0.5
+34170,9.49986111111111,Laying,Laying,True,duration,87.31666666666666,97.8,Seating,Seating,True,False,True,0.5
+34200,9.508194444444445,Laying,Laying,True,duration,86.08333333333333,98.0,Seating,Seating,True,False,True,0.5
+34230,9.516527777777778,Laying,Laying,True,duration,84.36666666666666,97.65,Seating,Seating,True,False,True,0.5
+34260,9.524861111111111,Laying,Laying,True,duration,84.48333333333333,97.16666666666667,Seating,Seating,True,False,True,0.5
+34290,9.533194444444444,Laying,Laying,True,duration,86.45,96.88333333333334,Seating,Seating,True,False,True,0.5
+34320,9.541527777777778,Laying,Laying,True,duration,85.36666666666666,96.75,Seating,Seating,True,False,True,0.5
+34350,9.549861111111111,Laying,Laying,True,duration,81.23333333333333,96.8,Seating,Seating,True,False,True,0.5
+34380,9.558194444444444,Laying,Laying,True,duration,79.95,97.11666666666666,Seating,Seating,True,False,True,0.5
+34410,9.566527777777777,Laying,Laying,True,duration,83.6,97.58333333333333,Seating,Seating,True,False,True,0.5
+34440,9.574861111111112,Laying,Laying,True,duration,85.38333333333334,97.98333333333333,Seating,Seating,True,False,True,0.5
+34470,9.583194444444445,Laying,Laying,True,duration,85.6,98.08333333333333,Seating,Seating,True,False,True,0.5
+34500,9.591527777777777,Laying,Laying,True,duration,88.48333333333333,98.0,Seating,Seating,True,False,True,0.5
+34530,9.59986111111111,Laying,Laying,True,duration,86.68333333333334,98.0,Seating,Seating,True,False,True,0.5
+34560,9.608194444444445,Laying,Laying,True,duration,83.35,98.0,Seating,Seating,True,False,True,0.5
+34590,9.616527777777778,Laying,Laying,True,duration,83.71666666666667,98.0,Seating,Seating,True,False,True,0.5
+34620,9.62486111111111,Laying,Laying,True,duration,82.68333333333334,98.0,Seating,Seating,True,False,True,0.5
+34650,9.633194444444445,Laying,Laying,True,duration,81.98333333333333,97.78333333333333,Seating,Seating,True,False,True,0.5
+34680,9.641527777777778,Laying,Laying,True,duration,83.0,97.61666666666666,Seating,Seating,True,False,True,0.5
+34710,9.649861111111111,Laying,Laying,True,duration,83.06666666666666,97.83333333333333,Seating,Seating,True,False,True,0.5
+34740,9.658194444444444,Laying,Laying,True,duration,82.16666666666667,97.95,Seating,Seating,True,False,True,0.5
+34770,9.666527777777778,Laying,Laying,True,duration,80.1,97.95,Seating,Seating,True,False,True,0.5
+34800,9.674861111111111,Laying,Laying,True,duration,85.26666666666667,98.16666666666667,Seating,Seating,True,False,True,0.5
+34830,9.683194444444444,Laying,Laying,True,duration,93.81666666666666,97.91666666666667,Seating,Seating,True,False,True,0.5
+34860,9.691527777777777,Laying,Laying,True,duration,90.08333333333333,97.85,Seating,Seating,True,False,True,0.5
+34890,9.699861111111112,Laying,Laying,True,duration,83.83333333333333,98.1,Seating,Seating,True,False,True,0.5
+34920,9.708194444444445,Laying,Laying,True,duration,88.56666666666666,97.9,Seating,Seating,True,False,True,0.5
+34950,9.716527777777777,Laying,Laying,True,duration,90.36666666666666,97.76666666666667,Seating,Seating,True,False,True,0.5
+34980,9.72486111111111,Laying,Laying,True,duration,85.2,97.81666666666666,Seating,Seating,True,False,True,0.5
+35010,9.733194444444445,Laying,Laying,True,duration,84.88333333333334,97.95,Seating,Seating,True,False,True,0.5
+35040,9.741527777777778,Laying,Laying,True,duration,85.65,97.93333333333334,Seating,Seating,True,False,True,0.5
+35070,9.74986111111111,Laying,Laying,True,duration,91.71666666666667,97.75,Seating,Seating,True,False,True,0.5
+35100,9.758194444444445,Laying,Laying,True,duration,94.93333333333334,97.26666666666667,Seating,Seating,True,False,True,0.5
+35130,9.766527777777778,Laying,Laying,True,duration,88.2,97.46666666666667,Seating,Seating,True,False,True,0.5
+35160,9.774861111111111,Laying,Laying,True,duration,85.76666666666667,98.0,Seating,Seating,True,False,True,0.5
+35190,9.783194444444444,Laying,Laying,True,duration,85.65,97.95,Seating,Seating,True,False,True,0.5
+35220,9.791527777777778,Laying,Laying,True,duration,83.66666666666667,97.43333333333334,Seating,Seating,True,False,True,0.5
+35250,9.799861111111111,Laying,Laying,True,duration,85.28333333333333,97.01666666666667,Seating,Seating,True,False,True,0.5
+35280,9.808194444444444,Laying,Laying,True,duration,87.53333333333333,96.75,Seating,Seating,True,False,True,0.5
+35310,9.816527777777777,Laying,Laying,True,duration,83.36666666666666,96.63333333333334,Seating,Seating,True,False,True,0.5
+35340,9.824861111111112,Laying,Laying,True,duration,79.33333333333333,97.16666666666667,Seating,Seating,True,False,True,0.5
+35370,9.833194444444445,Laying,Laying,True,duration,80.21666666666667,97.4,Seating,Seating,True,False,True,0.5
+35400,9.841527777777777,Laying,Laying,True,duration,84.71666666666667,97.66666666666667,Seating,Seating,True,False,True,0.5
+35430,9.84986111111111,Laying,Laying,True,duration,87.35,98.0,Seating,Seating,True,False,True,0.5
+35460,9.858194444444445,Laying,Laying,True,duration,87.23333333333333,98.0,Seating,Seating,True,False,True,0.5
+35490,9.866527777777778,Laying,Laying,True,duration,86.91666666666667,98.0,Seating,Seating,True,False,True,0.5
+35520,9.87486111111111,Laying,Laying,True,duration,84.7,98.0,Seating,Seating,True,False,True,0.5
+35550,9.883194444444445,Laying,Laying,True,duration,84.21666666666667,98.0,Seating,Seating,True,False,True,0.5
+35580,9.891527777777778,Laying,Laying,True,duration,83.36666666666666,98.0,Seating,Seating,True,False,True,0.5
+35610,9.899861111111111,Laying,Laying,True,duration,82.23333333333333,97.98333333333333,Seating,Seating,True,False,True,0.5
+35640,9.908194444444444,Laying,Laying,True,duration,82.06666666666666,97.61666666666666,Seating,Seating,True,False,True,0.5
+35670,9.916527777777778,Laying,Laying,True,duration,82.81666666666666,97.63333333333334,Seating,Seating,True,False,True,0.5
+35700,9.924861111111111,Laying,Laying,True,duration,83.13333333333334,97.95,Seating,Seating,True,False,True,0.5
+35730,9.933194444444444,Laying,Laying,True,duration,81.08333333333333,97.95,Seating,Seating,True,False,True,0.5
+35760,9.941527777777777,Laying,Laying,True,duration,82.13333333333334,98.11666666666666,Seating,Seating,True,False,True,0.5
+35790,9.949861111111112,Laying,Laying,True,duration,89.26666666666667,97.95,Seating,Seating,True,False,True,0.5
+35820,9.958194444444445,Laying,Laying,True,duration,92.93333333333334,97.8,Seating,Seating,True,False,True,0.5
+35850,9.966527777777777,Laying,Laying,True,duration,86.9,98.06666666666666,Seating,Seating,True,False,True,0.5
+35880,9.97486111111111,Laying,Laying,True,duration,86.46666666666667,98.1,Seating,Seating,True,False,True,0.5
+35910,9.983194444444445,Laying,Laying,True,duration,89.86666666666666,97.9,Seating,Seating,True,False,True,0.5
+35940,9.991527777777778,Laying,Laying,True,duration,87.13333333333334,97.71666666666667,Seating,Seating,True,False,True,0.5
+35970,9.99986111111111,Laying,Laying,True,duration,84.18333333333334,97.81666666666666,Seating,Seating,True,False,True,0.5
+36000,10.008194444444445,Laying,Laying,True,duration,85.0,98.0,Seating,Seating,True,False,True,0.5
+36030,10.016527777777778,Laying,Laying,True,duration,89.76666666666667,97.88333333333334,Seating,Seating,True,False,True,0.5
+36060,10.024861111111111,Laying,Laying,True,duration,93.3,97.48333333333333,Seating,Seating,True,False,True,0.5
+36090,10.033194444444444,Laying,Laying,True,duration,91.08333333333333,97.31666666666666,Seating,Seating,True,False,True,0.5
+36120,10.041527777777778,Laying,Laying,True,duration,87.48333333333333,97.8,Seating,Seating,True,False,True,0.5
+36150,10.049861111111111,Laying,Laying,True,duration,86.06666666666666,98.0,Seating,Seating,True,False,True,0.5
+36180,10.058194444444444,Laying,Laying,True,duration,84.53333333333333,97.61666666666666,Seating,Seating,True,False,True,0.5
+36210,10.066527777777777,Laying,Laying,True,duration,84.16666666666667,97.2,Seating,Seating,True,False,True,0.5
+36240,10.074861111111112,Laying,Laying,True,duration,86.25,96.91666666666667,Seating,Seating,True,False,True,0.5
+36270,10.083194444444445,Laying,Laying,True,duration,85.8,96.75,Seating,Seating,True,False,True,0.5
+36300,10.091527777777777,Laying,Laying,True,duration,81.5,96.75,Seating,Seating,True,False,True,0.5
+36330,10.09986111111111,Laying,Laying,True,duration,79.8,97.1,Seating,Seating,True,False,True,0.5
+36360,10.108194444444445,Laying,Laying,True,duration,83.08333333333333,97.53333333333333,Seating,Seating,True,False,True,0.5
+36390,10.116527777777778,Laying,Laying,True,duration,85.25,97.96666666666667,Seating,Seating,True,False,True,0.5
+36420,10.12486111111111,Laying,Laying,True,duration,85.83333333333333,98.11666666666666,Seating,Seating,True,False,True,0.5
+36450,10.133194444444445,Laying,Laying,True,duration,88.55,98.0,Seating,Seating,True,False,True,0.5
+36480,10.141527777777778,Laying,Laying,True,duration,86.66666666666667,98.0,Seating,Seating,True,False,True,0.5
+36510,10.149861111111111,Laying,Laying,True,duration,83.45,98.0,Seating,Seating,True,False,True,0.5
+36540,10.158194444444444,Laying,Laying,True,duration,83.91666666666667,98.0,Seating,Seating,True,False,True,0.5
+36570,10.166527777777778,Laying,Laying,True,duration,82.73333333333333,98.0,Seating,Seating,True,False,True,0.5
+36600,10.174861111111111,Laying,Laying,True,duration,82.05,97.81666666666666,Seating,Seating,True,False,True,0.5
+36630,10.183194444444444,Laying,Laying,True,duration,83.03333333333333,97.61666666666666,Seating,Seating,True,False,True,0.5
+36660,10.191527777777777,Laying,Laying,True,duration,83.03333333333333,97.8,Seating,Seating,True,False,True,0.5
+36690,10.199861111111112,Laying,Laying,True,duration,82.33333333333333,97.95,Seating,Seating,True,False,True,0.5
+36720,10.208194444444445,Laying,Laying,True,duration,80.16666666666667,97.95,Seating,Seating,True,False,True,0.5
+36750,10.216527777777777,Laying,Laying,True,duration,84.66666666666667,98.2,Seating,Seating,True,False,True,0.5
+36780,10.22486111111111,Laying,Laying,True,duration,93.23333333333333,97.91666666666667,Seating,Seating,True,False,True,0.5
+36810,10.233194444444445,Laying,Laying,True,duration,90.48333333333333,97.81666666666666,Seating,Seating,True,False,True,0.5
+36840,10.241527777777778,Laying,Laying,True,duration,83.85,98.1,Seating,Seating,True,False,True,0.5
+36870,10.24986111111111,Laying,Laying,True,duration,88.5,97.9,Seating,Seating,True,False,True,0.5
+36900,10.258194444444445,Laying,Laying,True,duration,90.8,97.76666666666667,Seating,Seating,True,False,True,0.5
+36930,10.266527777777778,Laying,Laying,True,duration,85.3,97.81666666666666,Seating,Seating,True,False,True,0.5
+36960,10.274861111111111,Laying,Laying,True,duration,84.88333333333334,97.95,Seating,Seating,True,False,True,0.5
+36990,10.283194444444444,Laying,Laying,True,duration,85.41666666666667,98.0,Seating,Seating,True,False,True,0.5
+37020,10.291527777777778,Laying,Laying,True,duration,91.31666666666666,97.78333333333333,Seating,Seating,True,False,True,0.5
+37050,10.299861111111111,Laying,Laying,True,duration,94.95,97.2,Seating,Seating,True,False,True,0.5
+37080,10.308194444444444,Laying,Laying,True,duration,88.36666666666666,97.41666666666667,Seating,Seating,True,False,True,0.5
+37110,10.316527777777777,Laying,Laying,True,duration,85.81666666666666,98.0,Seating,Seating,True,False,True,0.5
+37140,10.324861111111112,Laying,Laying,True,duration,85.83333333333333,98.0,Seating,Seating,True,False,True,0.5
+37170,10.333194444444445,Laying,Laying,True,duration,83.68333333333334,97.46666666666667,Seating,Seating,True,False,True,0.5
+37200,10.341527777777777,Laying,Laying,True,duration,85.26666666666667,97.01666666666667,Seating,Seating,True,False,True,0.5
+37230,10.34986111111111,Laying,Laying,True,duration,87.71666666666667,96.75,Seating,Seating,True,False,True,0.5
+37260,10.358194444444445,Laying,Laying,True,duration,83.73333333333333,96.66666666666667,Seating,Seating,True,False,True,0.5
+37290,10.366527777777778,Laying,Laying,True,duration,79.36666666666666,97.13333333333334,Seating,Seating,True,False,True,0.5
+37320,10.37486111111111,Laying,Laying,True,duration,79.83333333333333,97.35,Seating,Seating,True,False,True,0.5
+37350,10.383194444444445,Laying,Laying,True,duration,84.68333333333334,97.66666666666667,Seating,Seating,True,False,True,0.5
+37380,10.391527777777778,Laying,Laying,True,duration,87.25,97.98333333333333,Seating,Seating,True,False,True,0.5
+37410,10.399861111111111,Laying,Laying,True,duration,86.8,98.0,Seating,Seating,True,False,True,0.5
+37440,10.408194444444444,Laying,Laying,True,duration,87.13333333333334,98.0,Seating,Seating,True,False,True,0.5
+37470,10.416527777777778,Laying,Laying,True,duration,85.03333333333333,98.0,Seating,Seating,True,False,True,0.5
+37500,10.424861111111111,Laying,Laying,True,duration,84.15,98.0,Seating,Seating,True,False,True,0.5
+37530,10.433194444444444,Laying,Laying,True,duration,83.43333333333334,98.0,Seating,Seating,True,False,True,0.5
+37560,10.441527777777777,Laying,Laying,True,duration,82.25,98.0,Seating,Seating,True,False,True,0.5
+37590,10.449861111111112,Laying,Laying,True,duration,81.93333333333334,97.61666666666666,Seating,Seating,True,False,True,0.5
+37620,10.458194444444445,Laying,Laying,True,duration,82.86666666666666,97.61666666666666,Seating,Seating,True,False,True,0.5
+37650,10.466527777777777,Laying,Laying,True,duration,83.2,97.98333333333333,Seating,Seating,True,False,True,0.5
+37680,10.47486111111111,Laying,Laying,True,duration,81.18333333333334,97.95,Seating,Seating,True,False,True,0.5
+37710,10.483194444444445,Laying,Laying,True,duration,81.76666666666667,98.05,Seating,Seating,True,False,True,0.5
+37740,10.491527777777778,Laying,Laying,True,duration,88.66666666666667,97.95,Seating,Seating,True,False,True,0.5
+37770,10.49986111111111,Laying,Laying,True,duration,93.25,97.83333333333333,Seating,Seating,True,False,True,0.5
+37800,10.508194444444445,Laying,Laying,True,duration,87.5,98.06666666666666,Seating,Seating,True,False,True,0.5
+37830,10.516527777777778,Laying,Laying,True,duration,86.05,98.1,Seating,Seating,True,False,True,0.5
+37860,10.524861111111111,Laying,Laying,True,duration,89.56666666666666,97.9,Seating,Seating,True,False,True,0.5
+37890,10.533194444444444,Laying,Laying,True,duration,87.55,97.71666666666667,Seating,Seating,True,False,True,0.5
+37920,10.541527777777778,Laying,Laying,True,duration,84.31666666666666,97.81666666666666,Seating,Seating,True,False,True,0.5
+37950,10.549861111111111,Laying,Laying,True,duration,84.96666666666667,98.0,Seating,Seating,True,False,True,0.5
+37980,10.558194444444444,Laying,Laying,True,duration,89.33333333333333,97.88333333333334,Seating,Seating,True,False,True,0.5
+38010,10.566527777777777,Laying,Laying,True,duration,93.11666666666666,97.55,Seating,Seating,True,False,True,0.5
+38040,10.574861111111112,Laying,Laying,True,duration,91.55,97.31666666666666,Seating,Seating,True,False,True,0.5
+38070,10.583194444444445,Laying,Laying,True,duration,87.63333333333334,97.76666666666667,Seating,Seating,True,False,True,0.5
+38100,10.591527777777777,Laying,Laying,True,duration,86.05,98.0,Seating,Seating,True,False,True,0.5
+38130,10.59986111111111,Laying,Laying,True,duration,84.71666666666667,97.61666666666666,Seating,Seating,True,False,True,0.5
+38160,10.608194444444445,Laying,Laying,True,duration,83.95,97.23333333333333,Seating,Seating,True,False,True,0.5
+38190,10.616527777777778,Laying,Laying,True,duration,86.05,96.95,Seating,Seating,True,False,True,0.5
+38220,10.62486111111111,Laying,Laying,True,duration,86.13333333333334,96.75,Seating,Seating,True,False,True,0.5
+38250,10.633194444444445,Laying,Laying,True,duration,81.76666666666667,96.71666666666667,Seating,Seating,True,False,True,0.5
+38280,10.641527777777778,Laying,Laying,True,duration,79.48333333333333,97.13333333333334,Seating,Seating,True,False,True,0.5
+38310,10.649861111111111,Laying,Laying,True,duration,82.53333333333333,97.46666666666667,Seating,Seating,True,False,True,0.5
+38340,10.658194444444444,Laying,Laying,True,duration,85.26666666666667,97.9,Seating,Seating,True,False,True,0.5
+38370,10.666527777777778,Laying,Laying,True,duration,86.15,98.15,Seating,Seating,True,False,True,0.5
+38400,10.674861111111111,Laying,Laying,True,duration,88.58333333333333,98.0,Seating,Seating,True,False,True,0.5
+38430,10.683194444444444,Laying,Laying,True,duration,86.63333333333334,98.0,Seating,Seating,True,False,True,0.5
+38460,10.691527777777777,Laying,Laying,True,duration,83.61666666666666,98.0,Seating,Seating,True,False,True,0.5
+38490,10.699861111111112,Laying,Laying,True,duration,84.08333333333333,98.0,Seating,Seating,True,False,True,0.5
+38520,10.708194444444445,Laying,Laying,True,duration,82.76666666666667,98.0,Seating,Seating,True,False,True,0.5
+38550,10.716527777777777,Laying,Laying,True,duration,82.11666666666666,97.85,Seating,Seating,True,False,True,0.5
+38580,10.72486111111111,Laying,Laying,True,duration,83.06666666666666,97.61666666666666,Seating,Seating,True,False,True,0.5
+38610,10.733194444444445,Laying,Laying,True,duration,82.98333333333333,97.76666666666667,Seating,Seating,True,False,True,0.5
+38640,10.741527777777778,Laying,Laying,True,duration,82.38333333333334,97.95,Seating,Seating,True,False,True,0.5
+38670,10.74986111111111,Laying,Laying,True,duration,80.25,97.95,Seating,Seating,True,False,True,0.5
+38700,10.758194444444445,Laying,Laying,True,duration,84.18333333333334,98.23333333333333,Seating,Seating,True,False,True,0.5
+38730,10.766527777777778,Laying,Laying,True,duration,92.55,97.9,Seating,Seating,True,False,True,0.5
+38760,10.774861111111111,Laying,Laying,True,duration,90.88333333333334,97.78333333333333,Seating,Seating,True,False,True,0.5
+38790,10.783194444444444,Laying,Laying,True,duration,83.96666666666667,98.11666666666666,Seating,Seating,True,False,True,0.5
+38820,10.791527777777778,Laying,Laying,True,duration,88.43333333333334,97.9,Seating,Seating,True,False,True,0.5
+38850,10.799861111111111,Laying,Laying,True,duration,91.23333333333333,97.76666666666667,Seating,Seating,True,False,True,0.5
+38880,10.808194444444444,Laying,Laying,True,duration,85.4,97.81666666666666,Seating,Seating,True,False,True,0.5
+38910,10.816527777777777,Laying,Laying,True,duration,84.78333333333333,97.95,Seating,Seating,True,False,True,0.5
+38940,10.824861111111112,Laying,Laying,True,duration,85.28333333333333,98.0,Seating,Seating,True,False,True,0.5
+38970,10.833194444444445,Laying,Laying,True,duration,91.0,97.81666666666666,Seating,Seating,True,False,True,0.5
+39000,10.841527777777777,Laying,Laying,True,duration,94.71666666666667,97.2,Seating,Seating,True,False,True,0.5
+39030,10.84986111111111,Laying,Laying,True,duration,88.58333333333333,97.38333333333334,Seating,Seating,True,False,True,0.5
+39060,10.858194444444445,Laying,Laying,True,duration,86.01666666666667,98.0,Seating,Seating,True,False,True,0.5
+39090,10.866527777777778,Laying,Laying,True,duration,86.0,98.0,Seating,Seating,True,False,True,0.5
+39120,10.87486111111111,Laying,Laying,True,duration,83.73333333333333,97.5,Seating,Seating,True,False,True,0.5
+39150,10.883194444444445,Laying,Laying,True,duration,85.23333333333333,97.05,Seating,Seating,True,False,True,0.5
+39180,10.891527777777778,Laying,Laying,True,duration,87.76666666666667,96.75,Seating,Seating,True,False,True,0.5
+39210,10.899861111111111,Laying,Laying,True,duration,83.95,96.7,Seating,Seating,True,False,True,0.5
+39240,10.908194444444444,Laying,Laying,True,duration,79.5,97.1,Seating,Seating,True,False,True,0.5
+39270,10.916527777777778,Laying,Laying,True,duration,79.75,97.28333333333333,Seating,Seating,True,False,True,0.5
+39300,10.924861111111111,Laying,Laying,True,duration,84.65,97.66666666666667,Seating,Seating,True,False,True,0.5
+39330,10.933194444444444,Laying,Laying,True,duration,86.95,97.98333333333333,Seating,Seating,True,False,True,0.5
+39360,10.941527777777777,Laying,Laying,True,duration,86.4,98.0,Seating,Seating,True,False,True,0.5
+39390,10.949861111111112,Laying,Laying,True,duration,87.4,98.0,Seating,Seating,True,False,True,0.5
+39420,10.958194444444445,Laying,Laying,True,duration,85.4,98.0,Seating,Seating,True,False,True,0.5
+39450,10.966527777777777,Laying,Laying,True,duration,84.08333333333333,98.0,Seating,Seating,True,False,True,0.5
+39480,10.97486111111111,Laying,Laying,True,duration,83.46666666666667,98.0,Seating,Seating,True,False,True,0.5
+39510,10.983194444444445,Laying,Laying,True,duration,82.25,98.0,Seating,Seating,True,False,True,0.5
+39540,10.991527777777778,Laying,Laying,True,duration,81.83333333333333,97.61666666666666,Seating,Seating,True,False,True,0.5
+39570,10.99986111111111,Laying,Laying,True,duration,82.88333333333334,97.61666666666666,Seating,Seating,True,False,True,0.5
+39600,11.008194444444445,Laying,Laying,True,duration,83.23333333333333,98.0,Seating,Seating,True,False,True,0.5
+39630,11.016527777777778,Laying,Laying,True,duration,81.33333333333333,97.95,Seating,Seating,True,False,True,0.5
+39660,11.024861111111111,Laying,Laying,True,duration,81.33333333333333,98.0,Seating,Seating,True,False,True,0.5
+39690,11.033194444444444,Laying,Laying,True,duration,88.06666666666666,97.95,Seating,Seating,True,False,True,0.5
+39720,11.041527777777778,Laying,Laying,True,duration,93.58333333333333,97.86666666666666,Seating,Seating,True,False,True,0.5
+39750,11.049861111111111,Laying,Laying,True,duration,88.08333333333333,98.06666666666666,Seating,Seating,True,False,True,0.5
+39780,11.058194444444444,Laying,Laying,True,duration,85.65,98.1,Seating,Seating,True,False,True,0.5
+39810,11.066527777777777,Laying,Laying,True,duration,89.28333333333333,97.9,Seating,Seating,True,False,True,0.5
+39840,11.074861111111112,Laying,Laying,True,duration,87.91666666666667,97.71666666666667,Seating,Seating,True,False,True,0.5
+39870,11.083194444444445,Laying,Laying,True,duration,84.45,97.81666666666666,Seating,Seating,True,False,True,0.5
+39900,11.091527777777777,Laying,Laying,True,duration,85.01666666666667,98.0,Seating,Seating,True,False,True,0.5
+39930,11.09986111111111,Laying,Laying,True,duration,88.9,97.88333333333334,Seating,Seating,True,False,True,0.5
+39960,11.108194444444445,Laying,Laying,True,duration,92.93333333333334,97.58333333333333,Seating,Seating,True,False,True,0.5
+39990,11.116527777777778,Laying,Laying,True,duration,91.98333333333333,97.31666666666666,Seating,Seating,True,False,True,0.5
+40020,11.12486111111111,Laying,Laying,True,duration,87.73333333333333,97.73333333333333,Seating,Seating,True,False,True,0.5
+40050,11.133194444444445,Laying,Laying,True,duration,86.05,98.0,Seating,Seating,True,False,True,0.5
+40080,11.141527777777778,Laying,Laying,True,duration,84.83333333333333,97.65,Seating,Seating,True,False,True,0.5
+40110,11.149861111111111,Laying,Laying,True,duration,83.75,97.26666666666667,Seating,Seating,True,False,True,0.5
+40140,11.158194444444444,Laying,Laying,True,duration,85.93333333333334,96.98333333333333,Seating,Seating,True,False,True,0.5
+40170,11.166527777777778,Laying,Laying,True,duration,86.46666666666667,96.75,Seating,Seating,True,False,True,0.5
+40200,11.174861111111111,Laying,Laying,True,duration,82.05,96.68333333333334,Seating,Seating,True,False,True,0.5
+40230,11.183194444444444,Laying,Laying,True,duration,79.31666666666666,97.23333333333333,Seating,Seating,True,False,True,0.5
+40260,11.191527777777777,Laying,Laying,True,duration,82.01666666666667,97.4,Seating,Seating,True,False,True,0.5
+40290,11.199861111111112,Laying,Laying,True,duration,85.16666666666667,97.76666666666667,Seating,Seating,True,False,True,0.5
+40320,11.208194444444445,Laying,Laying,True,duration,86.45,98.18333333333334,Seating,Seating,True,False,True,0.5
+40350,11.216527777777777,Laying,Laying,True,duration,88.58333333333333,98.0,Seating,Seating,True,False,True,0.5
+40380,11.22486111111111,Laying,Laying,True,duration,86.6,98.0,Seating,Seating,True,False,True,0.5
+40410,11.233194444444445,Laying,Laying,True,duration,83.78333333333333,98.0,Seating,Seating,True,False,True,0.5
+40440,11.241527777777778,Laying,Laying,True,duration,84.21666666666667,98.0,Seating,Seating,True,False,True,0.5
+40470,11.24986111111111,Laying,Laying,True,duration,82.78333333333333,98.0,Seating,Seating,True,False,True,0.5
+40500,11.258194444444445,Laying,Laying,True,duration,82.18333333333334,97.88333333333334,Seating,Seating,True,False,True,0.5
+40530,11.266527777777778,Laying,Laying,True,duration,83.1,97.61666666666666,Seating,Seating,True,False,True,0.5
+40560,11.274861111111111,Laying,Laying,True,duration,82.9,97.73333333333333,Seating,Seating,True,False,True,0.5
+40590,11.283194444444444,Laying,Laying,True,duration,82.28333333333333,97.95,Seating,Seating,True,False,True,0.5
+40620,11.291527777777778,Laying,Laying,True,duration,80.36666666666666,97.95,Seating,Seating,True,False,True,0.5
+40650,11.299861111111111,Laying,Laying,True,duration,83.86666666666666,98.26666666666667,Laying,Seating,True,False,True,0.5
+40680,11.308194444444444,Laying,Laying,True,duration,91.88333333333334,97.9,Seating,Seating,True,False,True,0.5
+40710,11.316527777777777,Laying,Laying,True,duration,91.28333333333333,97.75,Seating,Seating,True,False,True,0.5
+40740,11.324861111111112,Laying,Laying,True,duration,84.38333333333334,98.11666666666666,Seating,Seating,True,False,True,0.5
+40770,11.333194444444445,Laying,Laying,True,duration,88.36666666666666,97.9,Seating,Seating,True,False,True,0.5
+40800,11.341527777777777,Laying,Laying,True,duration,91.26666666666667,97.76666666666667,Seating,Seating,True,False,True,0.5
+40830,11.34986111111111,Laying,Laying,True,duration,85.5,97.81666666666666,Seating,Seating,True,False,True,0.5
+40860,11.358194444444445,Laying,Laying,True,duration,84.56666666666666,97.95,Seating,Seating,True,False,True,0.5
+40890,11.366527777777778,Laying,Laying,True,duration,85.15,98.0,Seating,Seating,True,False,True,0.5
+40920,11.37486111111111,Laying,Laying,True,duration,90.86666666666666,97.86666666666666,Seating,Seating,True,False,True,0.5
+40950,11.383194444444445,Laying,Laying,True,duration,94.45,97.2,Seating,Seating,True,False,True,0.5
+40980,11.391527777777778,Laying,Laying,True,duration,88.81666666666666,97.33333333333333,Seating,Seating,True,False,True,0.5
+41010,11.399861111111111,Laying,Laying,True,duration,86.25,98.0,Seating,Seating,True,False,True,0.5
+41040,11.408194444444444,Laying,Laying,True,duration,86.16666666666667,98.0,Seating,Seating,True,False,True,0.5
+41070,11.416527777777778,Laying,Laying,True,duration,83.81666666666666,97.53333333333333,Seating,Seating,True,False,True,0.5
+41100,11.424861111111111,Laying,Laying,True,duration,85.2,97.08333333333333,Seating,Seating,True,False,True,0.5
+41130,11.433194444444444,Laying,Laying,True,duration,87.63333333333334,96.76666666666667,Seating,Seating,True,False,True,0.5
+41160,11.441527777777777,Laying,Laying,True,duration,84.11666666666666,96.7,Seating,Seating,True,False,True,0.5
+41190,11.449861111111112,Laying,Laying,True,duration,79.78333333333333,97.05,Seating,Seating,True,False,True,0.5
+41220,11.458194444444445,Laying,Laying,True,duration,79.71666666666667,97.25,Seating,Seating,True,False,True,0.5
+41250,11.466527777777777,Laying,Laying,True,duration,84.6,97.66666666666667,Seating,Seating,True,False,True,0.5
+41280,11.47486111111111,Laying,Laying,True,duration,86.68333333333334,97.98333333333333,Seating,Seating,True,False,True,0.5
+41310,11.483194444444445,Laying,Laying,True,duration,86.03333333333333,98.0,Seating,Seating,True,False,True,0.5
+41340,11.491527777777778,Laying,Laying,True,duration,87.63333333333334,98.0,Seating,Seating,True,False,True,0.5
+41370,11.49986111111111,Laying,Laying,True,duration,85.75,98.0,Seating,Seating,True,False,True,0.5
+41400,11.508194444444445,Laying,Laying,True,duration,84.01666666666667,98.0,Seating,Seating,True,False,True,0.5
+41430,11.516527777777778,Laying,Laying,True,duration,83.53333333333333,98.0,Seating,Seating,True,False,True,0.5
+41460,11.524861111111111,Laying,Laying,True,duration,82.25,98.0,Seating,Seating,True,False,True,0.5
+41490,11.533194444444444,Laying,Laying,True,duration,81.8,97.65,Seating,Seating,True,False,True,0.5
+41520,11.541527777777778,Laying,Laying,True,duration,82.85,97.61666666666666,Seating,Seating,True,False,True,0.5
+41550,11.549861111111111,Laying,Laying,True,duration,83.2,97.96666666666667,Seating,Seating,True,False,True,0.5
+41580,11.558194444444444,Laying,Laying,True,duration,81.53333333333333,97.95,Seating,Seating,True,False,True,0.5
+41610,11.566527777777777,Laying,Laying,True,duration,80.88333333333334,97.96666666666667,Seating,Seating,True,False,True,0.5
+41640,11.574861111111112,Laying,Laying,True,duration,87.5,98.0,Seating,Seating,True,False,True,0.5
+41670,11.583194444444445,Laying,Laying,True,duration,93.9,97.9,Seating,Seating,True,False,True,0.5
+41700,11.591527777777777,Laying,Laying,True,duration,88.55,98.01666666666667,Seating,Seating,True,False,True,0.5
+41730,11.59986111111111,Laying,Laying,True,duration,85.23333333333333,98.1,Seating,Seating,True,False,True,0.5
+41760,11.608194444444445,Laying,Laying,True,duration,89.08333333333333,97.9,Seating,Seating,True,False,True,0.5
+41790,11.616527777777778,Laying,Laying,True,duration,88.36666666666666,97.73333333333333,Seating,Seating,True,False,True,0.5
+41820,11.62486111111111,Laying,Laying,True,duration,84.58333333333333,97.81666666666666,Seating,Seating,True,False,True,0.5
+41850,11.633194444444445,Laying,Laying,True,duration,85.01666666666667,97.98333333333333,Seating,Seating,True,False,True,0.5
+41880,11.641527777777778,Laying,Laying,True,duration,88.46666666666667,97.88333333333334,Seating,Seating,True,False,True,0.5
+41910,11.649861111111111,Laying,Laying,True,duration,92.73333333333333,97.61666666666666,Seating,Seating,True,False,True,0.5
+41940,11.658194444444444,Laying,Laying,True,duration,92.43333333333334,97.31666666666666,Seating,Seating,True,False,True,0.5
+41970,11.666527777777778,Laying,Laying,True,duration,87.83333333333333,97.7,Seating,Seating,True,False,True,0.5
+42000,11.674861111111111,Laying,Laying,True,duration,85.98333333333333,98.0,Seating,Seating,True,False,True,0.5
+42030,11.683194444444444,Laying,Laying,True,duration,84.93333333333334,97.68333333333334,Seating,Seating,True,False,True,0.5
+42060,11.691527777777777,Laying,Laying,True,duration,83.66666666666667,97.3,Seating,Seating,True,False,True,0.5
+42090,11.699861111111112,Laying,Laying,True,duration,85.83333333333333,97.01666666666667,Seating,Seating,True,False,True,0.5
+42120,11.708194444444445,Laying,Laying,True,duration,86.73333333333333,96.75,Seating,Seating,True,False,True,0.5
+42150,11.716527777777777,Laying,Laying,True,duration,82.23333333333333,96.65,Seating,Seating,True,False,True,0.5
+42180,11.72486111111111,Laying,Laying,True,duration,79.2,97.3,Eating with cutlery,Seating,True,False,True,0.5
+42210,11.733194444444445,Laying,Laying,True,duration,81.71666666666667,97.4,Seating,Seating,True,False,True,0.5
+42240,11.741527777777778,Laying,Laying,True,duration,85.03333333333333,97.66666666666667,Seating,Seating,True,False,True,0.5
+42270,11.74986111111111,Laying,Laying,True,duration,86.63333333333334,98.15,Seating,Seating,True,False,True,0.5
+42300,11.758194444444445,Laying,Laying,True,duration,88.53333333333333,98.0,Seating,Seating,True,False,True,0.5
+42330,11.766527777777778,Laying,Laying,True,duration,86.63333333333334,98.0,Seating,Seating,True,False,True,0.5
+42360,11.774861111111111,Laying,Laying,True,duration,83.98333333333333,98.0,Seating,Seating,True,False,True,0.5
+42390,11.783194444444444,Laying,Laying,True,duration,84.28333333333333,98.0,Seating,Seating,True,False,True,0.5
+42420,11.791527777777778,Laying,Laying,True,duration,82.78333333333333,98.0,Seating,Seating,True,False,True,0.5
+42450,11.799861111111111,Laying,Laying,True,duration,82.26666666666667,97.91666666666667,Seating,Seating,True,False,True,0.5
+42480,11.808194444444444,Laying,Laying,True,duration,83.06666666666666,97.61666666666666,Seating,Seating,True,False,True,0.5
+42510,11.816527777777777,Laying,Laying,True,duration,82.75,97.7,Seating,Seating,True,False,True,0.5
+42540,11.824861111111112,Laying,Laying,True,duration,82.25,97.95,Seating,Seating,True,False,True,0.5
+42570,11.833194444444445,Laying,Laying,True,duration,80.53333333333333,97.95,Seating,Seating,True,False,True,0.5
+42600,11.841527777777777,Laying,Laying,True,duration,83.58333333333333,98.25,Seating,Seating,True,False,True,0.5
+42630,11.84986111111111,Laying,Laying,True,duration,91.35,97.93333333333334,Seating,Seating,True,False,True,0.5
+42660,11.858194444444445,Laying,Laying,True,duration,91.68333333333334,97.75,Seating,Seating,True,False,True,0.5
+42690,11.866527777777778,Laying,Laying,True,duration,84.81666666666666,98.08333333333333,Seating,Seating,True,False,True,0.5
+42720,11.87486111111111,Laying,Laying,True,duration,88.13333333333334,97.95,Seating,Seating,True,False,True,0.5
+42750,11.883194444444445,Laying,Laying,True,duration,91.13333333333334,97.76666666666667,Seating,Seating,True,False,True,0.5
+42780,11.891527777777778,Laying,Laying,True,duration,85.65,97.78333333333333,Seating,Seating,True,False,True,0.5
+42810,11.899861111111111,Laying,Laying,True,duration,84.23333333333333,97.95,Seating,Seating,True,False,True,0.5
+42840,11.908194444444444,Laying,Laying,True,duration,85.11666666666666,98.0,Seating,Seating,True,False,True,0.5
+42870,11.916527777777778,Laying,Laying,True,duration,90.85,97.88333333333334,Seating,Seating,True,False,True,0.5
+42900,11.924861111111111,Laying,Laying,True,duration,94.18333333333334,97.2,Seating,Seating,True,False,True,0.5
+42930,11.933194444444444,Laying,Laying,True,duration,89.21666666666667,97.31666666666666,Seating,Seating,True,False,True,0.5
+42960,11.941527777777777,Laying,Laying,True,duration,86.5,98.0,Seating,Seating,True,False,True,0.5
+42990,11.949861111111112,Laying,Laying,True,duration,86.18333333333334,98.0,Seating,Seating,True,False,True,0.5
+43020,11.958194444444445,Laying,Laying,True,duration,83.96666666666667,97.56666666666666,Seating,Seating,True,False,True,0.5
+43050,11.966527777777777,Laying,Laying,True,duration,85.16666666666667,97.11666666666666,Seating,Seating,True,False,True,0.5
+43080,11.97486111111111,Laying,Laying,True,duration,87.26666666666667,96.8,Seating,Seating,True,False,True,0.5
+43110,11.983194444444445,Laying,Laying,True,duration,84.28333333333333,96.7,Seating,Seating,True,False,True,0.5
+43140,11.991527777777778,Laying,Laying,True,duration,80.21666666666667,96.98333333333333,Seating,Seating,True,False,True,0.5
+43170,11.99986111111111,Laying,Laying,True,duration,79.68333333333334,97.21666666666667,Seating,Seating,True,False,True,0.5
+43200,12.008194444444445,Laying,Laying,True,duration,84.46666666666667,97.66666666666667,Seating,Seating,True,False,True,0.5
+43230,12.016527777777778,Laying,Laying,True,duration,86.45,97.98333333333333,Seating,Seating,True,False,True,0.5
+43260,12.024861111111111,Laying,Laying,True,duration,85.76666666666667,98.0,Seating,Seating,True,False,True,0.5
+43290,12.033194444444444,Laying,Laying,True,duration,87.85,98.0,Seating,Seating,True,False,True,0.5
+43320,12.041527777777778,Laying,Laying,True,duration,86.08333333333333,98.0,Seating,Seating,True,False,True,0.5
+43350,12.049861111111111,Laying,Laying,True,duration,83.86666666666666,98.0,Seating,Seating,True,False,True,0.5
+43380,12.058194444444444,Laying,Laying,True,duration,83.58333333333333,98.0,Seating,Seating,True,False,True,0.5
+43410,12.066527777777777,Laying,Laying,True,duration,82.31666666666666,98.0,Seating,Seating,True,False,True,0.5
+43440,12.074861111111112,Laying,Laying,True,duration,81.78333333333333,97.68333333333334,Seating,Seating,True,False,True,0.5
+43470,12.083194444444445,Laying,Laying,True,duration,82.81666666666666,97.61666666666666,Seating,Seating,True,False,True,0.5
+43500,12.091527777777777,Laying,Laying,True,duration,83.16666666666667,97.93333333333334,Seating,Seating,True,False,True,0.5
+43530,12.09986111111111,Laying,Laying,True,duration,81.73333333333333,97.95,Seating,Seating,True,False,True,0.5
+43560,12.108194444444445,Laying,Laying,True,duration,80.45,97.95,Seating,Seating,True,False,True,0.5
+43590,12.116527777777778,Laying,Laying,True,duration,86.96666666666667,98.06666666666666,Seating,Seating,True,False,True,0.5
+43620,12.12486111111111,Laying,Laying,True,duration,94.18333333333334,97.91666666666667,Seating,Seating,True,False,True,0.5
+43650,12.133194444444445,Laying,Laying,True,duration,88.95,97.95,Seating,Seating,True,False,True,0.5
+43680,12.141527777777778,Laying,Laying,True,duration,84.75,98.1,Seating,Seating,True,False,True,0.5
+43710,12.149861111111111,Laying,Laying,True,duration,88.91666666666667,97.9,Seating,Seating,True,False,True,0.5
+43740,12.158194444444444,Laying,Laying,True,duration,88.93333333333334,97.76666666666667,Seating,Seating,True,False,True,0.5
+43770,12.166527777777778,Laying,Laying,True,duration,84.75,97.81666666666666,Seating,Seating,True,False,True,0.5
+43800,12.174861111111111,Laying,Laying,True,duration,84.98333333333333,97.95,Seating,Seating,True,False,True,0.5
+43830,12.183194444444444,Laying,Laying,True,duration,87.81666666666666,97.88333333333334,Seating,Seating,True,False,True,0.5
+43860,12.191527777777777,Laying,Laying,True,duration,92.53333333333333,97.65,Seating,Seating,True,False,True,0.5
+43890,12.199861111111112,Laying,Laying,True,duration,93.08333333333333,97.31666666666666,Seating,Seating,True,False,True,0.5
+43920,12.208194444444445,Laying,Laying,True,duration,87.93333333333334,97.66666666666667,Seating,Seating,True,False,True,0.5
+43950,12.216527777777777,Laying,Laying,True,duration,85.88333333333334,98.0,Laying,Laying,True,False,True,0.5
+43980,12.22486111111111,Laying,Laying,True,duration,85.05,97.68333333333334,Laying,Laying,True,False,True,0.5
+44010,12.233194444444445,Laying,Laying,True,duration,83.66666666666667,97.33333333333333,Laying,Laying,True,False,True,0.5
+44040,12.241527777777778,Laying,Laying,True,duration,85.66666666666667,97.08333333333333,Seating,Seating,True,False,True,0.5
+44070,12.24986111111111,Laying,Laying,True,duration,86.93333333333334,96.75,Seating,Seating,True,False,True,0.5
+44100,12.258194444444445,Laying,Laying,True,duration,82.41666666666667,96.61666666666666,Seating,Seating,True,False,True,0.5
+44130,12.266527777777778,Laying,Laying,True,duration,79.23333333333333,97.26666666666667,Seating,Seating,True,False,True,0.5
+44160,12.274861111111111,Laying,Laying,True,duration,81.48333333333333,97.43333333333334,Seating,Seating,True,False,True,0.5
+44190,12.283194444444444,Laying,Laying,True,duration,84.85,97.66666666666667,Seating,Seating,True,False,True,0.5
+44220,12.291527777777778,Laying,Laying,True,duration,86.8,98.08333333333333,Seating,Seating,True,False,True,0.5
+44250,12.299861111111111,Laying,Laying,True,duration,88.33333333333333,98.0,Seating,Seating,True,False,True,0.5
+44280,12.308194444444444,Laying,Laying,True,duration,86.7,98.0,Seating,Seating,True,False,True,0.5
+44310,12.316527777777777,Laying,Laying,True,duration,84.2,98.0,Seating,Seating,True,False,True,0.5
